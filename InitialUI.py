@@ -58,14 +58,13 @@ def main(page: Page) -> None:
                         ),
                         ],
                         alignment=MainAxisAlignment.CENTER,
-
-                    )
-
+                    ),
                 ],
                 # # vertical_alignment=MainAxisAlignment.CENTER,
                 # horizontal_alignment=CrossAxisAlignment.STRETCH,
                 # spacing = 26
-            )
+            ),
+
         )
     
         #Lessee_Information Page
@@ -86,11 +85,11 @@ def main(page: Page) -> None:
                             tooltip="Home Page",
                             on_click=lambda _:page.go('/')
                         ),
-                        b = ElevatedButton(text= 'Check', on_click=button_on_clicked)
                     ]  
                 ),
-                page.add(b)
+
             )
+            
 
         #Unit_Status Page
         page.window_width = 1500
@@ -108,7 +107,11 @@ def main(page: Page) -> None:
                             icon_size=75,
                             tooltip="Home Page",
                             on_click=lambda _:page.go('/')
-                        ),     
+                        ),
+                        Row(controls=[
+                            ft.TextField(label="Enter Unit"),
+                            ft.ElevatedButton(text="Check"),
+                        ],alignment= MainAxisAlignment.CENTER)     
                     ]  
                 ),
             )
@@ -144,4 +147,6 @@ def main(page: Page) -> None:
 
 if __name__ == '__main__':
     ft.app(target = main)
+
+
 
