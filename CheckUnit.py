@@ -21,6 +21,7 @@ def main(page: ft.Page):
   t = ft.Text(color='#7B3F00')
   tb1 = ft.TextField(label="Enter Unit Number")
   b = ft.ElevatedButton(text="Check", on_click=button_clicked)
-  page.add(tb1, b, t)
+  page.add(
+    ft.Row(controls=[tb1, b]), t) 
 
 ft.app(target=main)
