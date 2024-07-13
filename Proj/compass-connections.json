@@ -1,0 +1,25 @@
+{
+  "type": "Compass Connections",
+  "version": {
+    "$numberInt": "1"
+  },
+  "connections": [
+    {
+      "id": "c59e1bd2-0e0a-4c6c-8fa1-f7e709abe612",
+      "lastUsed": {
+        "$date": {
+          "$numberLong": "1720785631213"
+        }
+      },
+      "favorite": {
+        "name": "CPE106L-Project",
+        "color": "color1"
+      },
+      "savedConnectionType": "favorite",
+      "connectionOptions": {
+        "connectionString": "mongodb://localhost:27017/",
+        "oidc": {}
+      }
+    }
+  ]
+}
