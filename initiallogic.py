@@ -85,11 +85,11 @@ def update_unit(unit, status, date):
         if new_status == "Occupied":
             # new_date = str(input("Enter New Lease Date (dd/mm/yyyy)"))
             new_date = str(date)
-            unitstatus.update_one({"Unit":unit},{"$set":{"Occupancy Status": new_status, "Lease Date": new_date, "Lease Peiod": 1}})
+            unitstatus.update_one({"Unit":unit},{"$set":{"Occupancy Status": new_status, "Lease Date": new_date, "Lease Period": 1}})
             return True
         
         elif new_status == "Vacant":
-            unitstatus.update_one({"Unit":unit},{"$set":{"Occupancy Status": new_status, "Lease Date": None, "Lease Peiod": 1}})
+            unitstatus.update_one({"Unit":unit},{"$set":{"Occupancy Status": new_status, "Lease Date": None, "Lease Period": 1}})
             return True
 
 
