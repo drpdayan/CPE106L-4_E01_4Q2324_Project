@@ -30,6 +30,7 @@ def get_lessee_list(mongo_uri="mongodb://localhost:27017/", database_name="Apart
         raise Exception(f"An error occurred while connecting to MongoDB: {e}")  
 
 
+
 def find_lessee(unit):
     client = mc("mongodb://localhost:27017/")
     db = client["ApartmentCollectionSystem"]
@@ -44,6 +45,8 @@ def find_lessee(unit):
                        "Rental Purpose": x["Rental Purpose"], 
                        "TIN": x["TIN"]}
     return lessee_info
+
+
 
 def check_unit(unit):
     client = mc("mongodb://localhost:27017/")
@@ -60,12 +63,85 @@ def check_unit(unit):
                        "Lease Date": x["Lease Date"]}
     return unitstatus
 
+
+
+def update_unit(unit, status, date):
+    client = mc("mongodb://localhost:27017/")
+    db = client["ApartmentCollectionSystem"]
+    unitstatus = db["Unit_Status"] 
+
+    checkunit = unitstatus.find_one({"Unit": unit})
+    while checkunit:
+        if not checkunit:
+            print(f"Unit Number '{unit}' not found.")
+            return False
+            
+        # new_status = input("Enter New Occupancy Status (Occupied/Vacant):")
+        new_status = status
+        if new_status not in ("Occupied", "Vacant"):
+            print("Invalid Input. Try Again")
+            return False
+
+        if new_status == "Occupied":
+            # new_date = str(input("Enter New Lease Date (dd/mm/yyyy)"))
+            new_date = str(date)
+            unitstatus.update_one({"Unit":unit},{"$set":{"Occupancy Status": new_status, "Lease Date": new_date, "Lease Peiod": 1}})
+            return True
+        
+        elif new_status == "Vacant":
+            unitstatus.update_one({"Unit":unit},{"$set":{"Occupancy Status": new_status, "Lease Date": None, "Lease Peiod": 1}})
+            return True
+
+
+
+def update_lessee(unit, purpose, name, TIN):
+    client = mc("mongodb://localhost:27017/")
+    db = client["ApartmentCollectionSystem"]
+    unitstatus = db["Lessee_Information"] 
+
+    checkunit = unitstatus.find_one({"Unit": unit})
+    while checkunit:
+        if not checkunit:
+            print(f"Unit Number '{unit}' not found.")
+            return False
+            
+            
+        # new_purpose= input("Enter Rental Purpose (Residential/Commercial/Vacant):")
+        new_purpose = purpose
+
+        
+        if new_purpose not in ("Residential", "Commercial", "Vacant"):
+            print("Invalid Input. Try Again")
+            return False
+        
+        if new_purpose == "Vacant":
+            unitstatus.update_one({"Unit":unit},{"$set":{"Lessee Name": None,"Rental Purpose": None ,"TIN": None}})
+            return True
+
+        elif new_purpose == "Residential" or "Commercial":
+            # new_name = input("Enter New Lessee Name: ")
+            new_name = name
+
+            if new_purpose == "Residential":
+                unitstatus.update_one({"Unit":unit},{"$set":{"Lessee Name": new_name,"Rental Purpose": new_purpose ,"TIN": None}})
+                return True
+            
+            elif new_purpose == "Commercial":
+                # new_TIN = int(input("Enter New TIN"))
+                new_TIN = int(TIN)
+                unitstatus.update_one({"Unit":unit},{"$set":{"Lessee Name": new_name,"Rental Purpose": new_purpose ,"TIN": new_TIN}})
+                return True
+
+
+
+    
+
 def close_connection(client):
     client.close()
 
-# if __name__ == "__main__":
-#   lessee_list = get_lessee_list()
-#   print(lessee_list)
+if __name__ == "__main__":
+    x = input("Enter Unit Number: ")
+    update_lessee(x)
 
 
 

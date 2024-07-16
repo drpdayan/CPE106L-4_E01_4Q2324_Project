@@ -11,10 +11,10 @@ def main(page: ft.Page):
   def button_clicked(e):
     if ilg.open_connection():
       t.value = "Connection ok..."
-      lessee_info = ilg.check_unit(tb1.value)
-      if lessee_info:  # Check if lessee information is found
+      unit_val = ilg.check_unit(tb1.value)
+      if unit_val:  # Check if lessee information is found
         output_text = " "
-        for field, value in lessee_info.items():
+        for field, value in unit_val.items():
           output_text += f"{field}: {value}\n"
         t.value = output_text
       else:
