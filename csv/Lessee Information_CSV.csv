@@ -1,29 +1,41 @@
 Unit,Lessee Name,Rental Purpose,TIN
-1A,Null ,Null ,Null 
+1A,Null,Null,Null
 1B,Cherry Lynn Santos,Commercial,2.13E+11
 1C,Mari Jennifer Yalung,Commercial,2.10E+11
-1D,Jerome Ongcapin,Residential,Null 
-2A,Null ,Null ,Null 
-2B,Angelito L. Ongcapin,Residential,Null 
-2C,Betty R. Ongcapin,Residential,Null 
-2D,Jemelleen Rose Go,Residential,Null 
-2E,Null ,Null ,Null 
-2F,Leah Esguerra,Residential,Null 
-2G,Aireen Remoto,Residential,Null 
-2H,Cecille Encarnacion,Residential,Null 
-3A,Honeylyn Privado,Residential,Null 
-3B,Marc Angelo Ongcapin,Residential,Null 
-3C,Scala M. Ongcapin,Residential,Null 
-3D,Madel Mahinay,Residential,Null 
-3E,Null ,Null ,Null 
-3F,Nancy Yee,Residential,Null 
-3G,Null ,Null ,Null 
-3H,Paul Encarnacion,Residential,Null 
-4A,Louise Cruz,Residential,Null 
-4B,Raymond Ducos,Residential,Null 
-4C,Vacant,Residential,Null 
-4D,Judy Ann Bermiso,Residential,Null 
-4E,Veronica Ongcapin Tan,Residential,Null 
-4F,Corazon O. Encarnacion,Residential,Null 
-4G,Carmen Zaplan,Residential,Null 
-4H,Null ,Null ,Null 
+1D,Jerome Ongcapin,Residential,Null
+2A,Cris Dione Sigua,Residential,Null
+2B,Angelito L. Ongcapin,Residential,Null
+2C,Betty R. Ongcapin,Residential,Null
+2D,Jemelleen Rose Go,Residential,Null
+2E,Null,Null,Null
+2F,Leah Esguerra,Residential,Null
+2G,Aireen Remoto,Residential,Null
+2H,Cecille Encarnacion,Residential,Null
+2I,Angie Villarico,Residential,Null
+2J,Ronwaldo Bariuan,Residential,Null
+2K,Cecille Espiritu,Residential,Null
+2L,Arvin de Guzman,Residential,Null
+3A,Honeylyn Privado,Residential,Null
+3B,Marc Angelo Ongcapin,Residential,Null
+3C,Scala M. Ongcapin,Residential,Null
+3D,Madel Mahinay,Residential,Null
+3E,Carissa Tapang,Residential,Null
+3F,Nancy Yee,Residential,Null
+3G,Misie Quimba,Residential,Null
+3H,Paul Encarnacion,Residential,Null
+3I,Jennifer Valenzuela,Residential,Null
+3J,Clarissa Gallardo,Residential,Null
+3K,Aaron Alfonso,Residential,Null
+3L,Rowena Barcelona,Residential,Null
+4A,Louise Cruz,Residential,Null
+4B,Raymond Ducos,Residential,Null
+4C,Marvin Inocencio,Residential,Null
+4D,Judy Ann Bermiso,Residential,Null
+4E,Veronica Ongcapin Tan,Residential,Null
+4F,Corazon O. Encarnacion,Residential,Null
+4G,Carmen Zaplan,Residential,Null
+4H,Jonald Cajilig,Residential,Null
+4I,Rhodora Capulong,Residential,Null
+4J,Philip Sevilla,Residential,Null
+4K,Karren Ralutin,Residential,Null
+4L,Zaida Rosales,Residential,Null

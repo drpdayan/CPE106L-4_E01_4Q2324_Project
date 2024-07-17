@@ -35,7 +35,7 @@ def main(page: Page) -> None:
                                 icon=ft.icons.PERSON_OUTLINE,
                                 icon_color="#FF7900",
                                 icon_size=150,
-                                tooltip="User Profile",
+                                tooltip="Lessee Profile",
                                 on_click=lambda _:page.go('/poutline'),
                             ),
                             padding = 20
@@ -77,7 +77,7 @@ def main(page: Page) -> None:
                     t.value = "Connection ok..."
                     lessee_info = ilg.find_lessee(tb1.value)
                     if lessee_info:  # Check if lessee information is found
-                        output_text = " "
+                        output_text = ""
                         for field, value in lessee_info.items():
                             output_text += f"{field}: {value}\n"
                         t.value = output_text
@@ -105,7 +105,7 @@ def main(page: Page) -> None:
  
 
             tb1 = ft.TextField(label="Enter Unit")
-            b = ft.IconButton(icon=icons.SEARCH_SHARP, on_click=lesseeinfo_button_clicked)
+            b = ft.IconButton(icon=icons.SEARCH_SHARP,icon_size=50, on_click=lesseeinfo_button_clicked)
             page.window_width = 750
             page.window_height = 400
             page.views.append(
@@ -113,7 +113,7 @@ def main(page: Page) -> None:
                 View(
                     route = '/poutline',
                     controls = [
-                        AppBar(title=Text('User Profile'), bgcolor='#f0a150'),
+                        AppBar(title=Text('Lessee Profile'), bgcolor='#f0a150'),
 
                         Row([tb1, b, Edit_Lessee]),
                         Row([HeadingText], alignment=CrossAxisAlignment.START),
@@ -186,12 +186,12 @@ def main(page: Page) -> None:
                     t.value = "Connection ok..."
                     unit_info = ilg.check_unit(tb1.value)
                     if unit_info:  # Check if lessee information is found
-                        output_text = " "
+                        output_text = ""
                         for field, value in unit_info.items():
                             output_text += f"{field}: {value}\n"
                         t.value = output_text
-                    else:
-                        t.value = "Unit not found."
+                    elif not unit_info:
+                        t.value = "UNIT NOT FOUND"
                 else:
                     t.value = "NO connection..."
                 page.update()
@@ -222,7 +222,7 @@ def main(page: Page) -> None:
                 View(
                     route = '/ustatus',
                     controls = [
-                        AppBar(title=Text('User Profile'), bgcolor='#f0a150'),
+                        AppBar(title=Text('Unit Status'), bgcolor='#f0a150'),
                         Row([tb1, b, Edit_Lessee]),
                         Row([HeadingText], alignment=CrossAxisAlignment.START),
                         Row([t],alignment=MainAxisAlignment.START),
