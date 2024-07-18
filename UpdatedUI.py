@@ -190,7 +190,7 @@ def main(page: Page) -> None:
                         for field, value in unit_info.items():
                             output_text += f"{field}: {value}\n"
                         t.value = output_text
-                    elif not unit_info:
+                    else:
                         t.value = "UNIT NOT FOUND"
                 else:
                     t.value = "NO connection..."
