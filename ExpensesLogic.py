@@ -29,6 +29,15 @@ def check_unit(unit):
     else:
         print("GG")
         
+def get_expense(unit):
+    client = mc("mongodb://localhost:27017/")
+    db = client["ApartmentCollectionSystem"]
+    unitexpense = db["Unit_Expenses"] 
+
+    getunit = unitexpense.find({"Unit": unit})
+    for x in getunit:
+        append_key_value_pair = {"Unit": x[""]}
+
 #parameters (unit, check_out, outstanding, month, rent, electricity, water)
 def add_expense(unit, month, check_out, outstanding,  rent, electricity, water):
     client = mc("mongodb://localhost:27017/")
@@ -85,4 +94,5 @@ def add_expense(unit, month, check_out, outstanding,  rent, electricity, water):
 
 
 if __name__ == "__main__":
-    add_expense("1G", "May", True, 1, 1.0, 1.0, 1.0)
+    unit = input("Enter Unit: ")
+    get_expense(unit)
