@@ -8,15 +8,10 @@ db = None
 
 def open_connection():
     try:
-        # Get reference to 'chinook' database
         db = client["ApartmentCollectionSystem"]
-        # # Get a reference to the 'customers' collection
-        # customers_collection = db["customers"]
-        # doc1 = customers_collection.find_one()
         return True
     except:
         return False
-
 
 def check_unit(unit):
     client = mc("mongodb://localhost:27017/")
@@ -29,14 +24,52 @@ def check_unit(unit):
     else:
         print("GG")
         
-def get_expense(unit):
+def get_unit_expense_all(unit):
     client = mc("mongodb://localhost:27017/")
     db = client["ApartmentCollectionSystem"]
     unitexpense = db["Unit_Expenses"] 
 
-    getunit = unitexpense.find({"Unit": unit})
-    for x in getunit:
-        append_key_value_pair = {"Unit": x[""]}
+    checkunit = unitexpense.find_one({"Unit": unit})
+    while checkunit:
+        if not checkunit:
+            print(f"Unit Number '{unit}' not found.")
+            break
+
+        UnitExpenseAll = []
+        getunit = unitexpense.find({"Unit": unit})
+        for x in getunit:
+            x.pop("_id", None)
+            UnitExpenseAll.append(x)
+        break
+
+    return UnitExpenseAll
+
+def get_unit_expense_month(unit, month):
+    client = mc("mongodb://localhost:27017/")
+    db = client["ApartmentCollectionSystem"]
+    unitexpense = db["Unit_Expenses"] 
+
+    checkunit = unitexpense.find_one({"Unit": unit})
+    while checkunit:
+        if not checkunit:
+            print(f"Unit Number '{unit}' not found.")
+            return False
+
+        UnitExpenseMonth = []
+        new_month = month
+        if new_month not in ("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"):
+            print("Invalid Month. Try Again")
+            return False
+        
+        # projection = {"Unit": 1, "Month": 1}
+        getunit = unitexpense.find({"Unit": unit, "Month": month})
+
+        
+        for x in getunit:
+            x.pop("_id", None)
+            UnitExpenseMonth.append(x)
+        break
+    return UnitExpenseMonth
 
 #parameters (unit, check_out, outstanding, month, rent, electricity, water)
 def add_expense(unit, month, check_out, outstanding,  rent, electricity, water):
@@ -93,6 +126,37 @@ def add_expense(unit, month, check_out, outstanding,  rent, electricity, water):
         
 
 
+def get_values(unit, month):
+    UnitMonthlyExpense = get_unit_expense_month(unit, month)
+    get_val = UnitMonthlyExpense[0]
+    u_val = get_val['Unit']
+    m_val = get_val['Month']
+    r_val = get_val['Rent']
+    e_val = get_val['Electricity']
+    w_val = get_val['Water']
+    o_val = get_val['Outstanding Balance']
+    return u_val, m_val, r_val, e_val, w_val, o_val
+
+
+
+
+# if __name__ == "__main__":
+#     unit = input("Enter Unit: ")
+#     month = input("Enter Month: ")
+#     get_unit_expense_month(unit, month)
+#     print(get_unit_expense_month(unit, month))
+
+# if __name__ == "__main__":
+#     unit = input("Enter Unit: ")
+#     get_unit_expense_all(unit)
+#     print(get_unit_expense_all(unit))
+
+
 if __name__ == "__main__":
     unit = input("Enter Unit: ")
-    get_expense(unit)
+    month = input("Enter Month: ")
+    get_values(unit, month)
+    getit = get_values(unit, month)
+    u_val, m_val, r_val, e_val, w_val, o_val = getit
+    print(u_val, m_val, r_val, e_val, w_val, o_val)
+

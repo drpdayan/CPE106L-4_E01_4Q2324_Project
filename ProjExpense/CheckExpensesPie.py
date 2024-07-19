@@ -1,5 +1,8 @@
 import flet as ft
 from flet import *
+import ExpensesLogic as elg
+
+
 
 
 def main(page: ft.Page):
@@ -8,46 +11,30 @@ def main(page: ft.Page):
         "RobotoMono": "https://github.com/google/fonts/raw/main/apache/robotomono/RobotoMono%5Bwght%5D.ttf"
     }
 
-    t = ft.Text()
-    
-    #Dropdown Menu
-    def dropdown_changed(e):
-        t.value = f"Dropdown changed to {dd.value}"
-        page.update()
+    unit = "3E"
+    month = "May"
 
-    dd = ft.Dropdown(
-        hint_text='Enter Month',
-        on_change=dropdown_changed,
-        options=[
-            ft.dropdown.Option("January"),
-            ft.dropdown.Option("February"),
-            ft.dropdown.Option("March"),
-            ft.dropdown.Option("April"),
-            ft.dropdown.Option("May"),
-            ft.dropdown.Option("June"),
-        ],
-        width=200,
-    )
-    #PieChart
-    electricity_val = 7500
-    water_val = 1250
-    rent_val = 8500
-    outstanding_val = 0
+    page.window.width = 750
+    page.window.height = 1000
 
+
+
+    getit = elg.get_values(unit, month)
+    u_val, m_val, r_val, e_val, w_val, o_val = getit
+    # print(u_val, m_val, r_val, e_val, w_val, o_val)
+    # get_uval.value= f"{u_val}"
+    page.update()
+
+    #Pie Chart
     normal_radius = 100
     hover_radius = 110
-
-
-    normal_badge_size = 35
+    badge_size = 35
 
     #Icon Template
     def badge(icon, iconsize):
         return ft.Container(
-            ft.Icon(icon, size= iconsize),
-            width=iconsize,
-            height=iconsize,
-            bgcolor=colors.TRANSPARENT,
-        )
+            ft.Icon(icon, size= iconsize), width=iconsize, height=iconsize, bgcolor=colors.TRANSPARENT
+            )
 
     #PieChart Hover
     def on_chart_event_pie(e: ft.PieChartEvent):
@@ -64,15 +51,15 @@ def main(page: ft.Page):
         
         sections=[
             ft.PieChartSection(
-                rent_val,
+                r_val,
                 color=ft.colors.BROWN_300,
                 radius=normal_radius,
-                badge=badge(icons.OTHER_HOUSES_OUTLINED, normal_badge_size),
+                badge=badge(icons.OTHER_HOUSES_OUTLINED, badge_size),
                 badge_position=0.50,
 
             ),
             ft.PieChartSection(
-                electricity_val,
+                e_val,
                 color=ft.colors.YELLOW,
                 radius=normal_radius,
                 badge=badge(icons.ELECTRIC_BOLT_OUTLINED, normal_badge_size),
@@ -80,14 +67,14 @@ def main(page: ft.Page):
 
             ),
             ft.PieChartSection(
-                water_val,
+                w_val,
                 color=ft.colors.BLUE_300,
                 radius=normal_radius,
                 badge=badge(ft.icons.WATER_DROP_OUTLINED, normal_badge_size),
                 badge_position=0.50,
             ),
             ft.PieChartSection(
-                outstanding_val,
+                o_val,
                 color=ft.colors.GREEN,
                 radius=normal_radius,
                 badge=badge(ft.icons.ATTACH_MONEY_ROUNDED, normal_badge_size),
@@ -100,25 +87,12 @@ def main(page: ft.Page):
         expand=True,     
     )
 
+    # b = ft.IconButton(icon=icons.SEARCH_ROUNDED, icon_color='#D67229', on_click=search_clicked, icon_size= 50 )
+    page.add(Row([chart])
 
-
-
-
-    t = Text()
-    tb1 = TextField(label="Enter Unit", width=150)
-    unittext = Text("Unit", font_family='RobotoMono', color="#D67229", size='20')
-    tb2 = TextField(label="Enter Purpose")
-    purposetext = Text("Month", font_family='RobotoMono', color="#D67229", size='20')
-    
-
-
-    b = ft.IconButton(icon=icons.SEARCH_ROUNDED, icon_color='#D67229',icon_size=50, on_click=dropdown_changed)
-    page.add(Row([tb1,dd,b],alignment=MainAxisAlignment.CENTER
-                 ),
-             Row([t]),
-             Row([chart])
             )
-             
+    page.update()
+    
 
 
 ft.app(target=main)

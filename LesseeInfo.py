@@ -17,8 +17,8 @@ def main(page: ft.Page):
 
     # Create DataRow objects from each dictionary in the list
     flet_rows = []
-    for person in glists:
-        cells = [ft.DataCell(ft.Text(str(value))) for value in person.values()]
+    for x in glists:
+        cells = [ft.DataCell(ft.Text(str(value))) for value in x.values()]
         flet_rows.append(ft.DataRow(cells=cells))
 
     # Create the DataTable object
