@@ -22,6 +22,7 @@ def main(page: ft.Page):
     oval = Text()
     allval = Text()
     get_uval =  Text()
+    
 
 
     
@@ -35,17 +36,13 @@ def main(page: ft.Page):
         ],
         width=200,
     )
-
-
-
     #CheckBox
     def checkbox_changed(e):
         MonthDropDown.disabled =  not e.control.value
         page.update()
     MonthCheck = ft.Checkbox(label="Search for Specific Month",label_position= LabelPosition.LEFT, on_change=checkbox_changed)
 
-
-    def search_clicked(e):
+    def allormonth():
         if MonthCheck.value == True:
             UnitMonthlyExpense = elg.get_unit_expense_month(EnterUnit.value, MonthDropDown.value)
             get_dict = UnitMonthlyExpense[0]
@@ -54,19 +51,40 @@ def main(page: ft.Page):
             rval.value = f"{get_dict['Rent']}"
             eval.value = f"{get_dict['Electricity']}"
             wval.value = f"{get_dict['Water']}"
-            oval.value = f"{get_dict['Outstanding Balance']}"     
+            oval.value = f"{get_dict['Outstanding Balance']}"
+            u_val = get_dict['Unit'] 
+            m_val = get_dict['Month'] 
+            r_val = get_dict['Rent'] 
+            e_val = get_dict['Electricity'] 
+            w_val = get_dict['Water'] 
+            o_val = get_dict['Outstanding Balance'] 
+
+            t = Text("Nice")
+
             page.update()
+            return t
+            
 
 
         elif MonthCheck.value == False:
             getall = elg.get_unit_expense_all(EnterUnit.value)
             allval.value = f"{getall}"
+
+            t = Text("Nice!")
             page.update()
+            return t
+
+
+    testing = allormonth
+
+    def search_clicked(e):
+        allormonth()
 
 
     b = ft.IconButton(icon=icons.SEARCH_ROUNDED, icon_color='#D67229', on_click=search_clicked, icon_size= 50 )
     page.add(Row([EnterUnit,MonthDropDown,b],alignment=MainAxisAlignment.CENTER),
              Row([Container(MonthCheck)], alignment=MainAxisAlignment.CENTER),
+             Row([testing]),
              Row([uval, mval, rval, eval, wval, oval]),
              Row([get_uval]),
              Row([allval]),
