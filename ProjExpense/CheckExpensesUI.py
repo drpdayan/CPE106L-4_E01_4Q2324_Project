@@ -9,16 +9,12 @@ def main(page: ft.Page):
         "RobotoMono": "https://github.com/google/fonts/raw/main/apache/robotomono/RobotoMono%5Bwght%5D.ttf"
     }
 
-    page.window.width = 800
-    page.window.height = 1250
+    page.window.width = 750
+    page.window.height = 250
 
     #Text Fields
     EnterUnit = TextField(label="Enter Unit", width=150)
 
-
-
-
-    
     #Dropdown Menu
     MonthDropDown = ft.Dropdown(
         disabled= True,
@@ -50,7 +46,8 @@ def main(page: ft.Page):
             wat_percent = (w_val/expense_total) *100
             out_percent = (o_val/expense_total) *100
             
-
+            page.window.width = 750
+            page.window.height = 1150
 
             #Pie Chart
             normal_radius = 150
@@ -186,6 +183,9 @@ def main(page: ft.Page):
         elif MonthCheck.value == False:
 
             getall = elg.get_unit_expense_all(EnterUnit.value)
+
+            page.window.width = 750
+            page.window.height = 600
 
             # Extract column names from the dictionary keys
             columns = list(getall[0].keys())
