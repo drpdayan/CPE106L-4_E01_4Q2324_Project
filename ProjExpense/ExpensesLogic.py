@@ -49,6 +49,7 @@ def get_unit_expense_month(unit, month):
     db = client["ApartmentCollectionSystem"]
     unitexpense = db["Unit_Expenses"] 
 
+
     checkunit = unitexpense.find_one({"Unit": unit})
     while checkunit:
         if not checkunit:
@@ -69,6 +70,7 @@ def get_unit_expense_month(unit, month):
             x.pop("_id", None)
             UnitExpenseMonth.append(x)
         break
+
     return UnitExpenseMonth
 
 #parameters (unit, check_out, outstanding, month, rent, electricity, water)
@@ -151,11 +153,11 @@ def get_values(unit, month):
 #     print(get_unit_expense_all(unit))
 
 
-if __name__ == "__main__":
-    unit = input("Enter Unit: ")
-    month = input("Enter Month: ")
-    get_values(unit, month)
-    getit = get_values(unit, month)
-    u_val, m_val, r_val, e_val, w_val, o_val = getit
-    print(u_val, m_val, r_val, e_val, w_val, o_val)
+# if __name__ == "__main__":
+#     unit = input("Enter Unit: ")
+#     month = input("Enter Month: ")
+#     get_values(unit, month)
+#     getit = get_values(unit, month)
+#     u_val, m_val, r_val, e_val, w_val, o_val = getit
+#     print(u_val, m_val, r_val, e_val, w_val, o_val)
 
