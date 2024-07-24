@@ -54,7 +54,7 @@ def main(page: ft.Page):
             hover_radius = 165
             badge_size = 50
             normal_title_style = TextStyle( size= 1, color=colors.WHITE, weight=FontWeight.BOLD )
-            hover_title_style = TextStyle( font_family= 'RobotoSlab' ,size=22, color=colors.WHITE, weight=FontWeight.BOLD, shadow=BoxShadow(blur_radius=2, color=colors.BLACK54), )
+            hover_title_style = TextStyle( font_family= 'RobotoSlab' ,size=22, color='#f0a150', weight=FontWeight.BOLD, shadow=BoxShadow(blur_radius=2, color=colors.GREY_400),)
 
             #Icon Template
             def badge(icon, iconsize, expensepercent):
@@ -174,7 +174,8 @@ def main(page: ft.Page):
                     Row([RentContainer,], MainAxisAlignment.CENTER, spacing= -100),
                     Row([ElecContainer,], MainAxisAlignment.CENTER), 
                     Row([WaterContainer,], MainAxisAlignment.CENTER), 
-                    Row([OutContainer,], MainAxisAlignment.CENTER),  
+                    Row([OutContainer,], MainAxisAlignment.CENTER),
+                    Row([Container(b_delete, padding= 50)], alignment=MainAxisAlignment.CENTER),
             )
             page.update()
 
@@ -214,20 +215,24 @@ def main(page: ft.Page):
             page.add(
                         Row([EnterUnit,MonthDropDown,b],alignment=MainAxisAlignment.CENTER),
                         Row([Container(MonthCheck)], alignment=MainAxisAlignment.CENTER),
-                        Row([Container(table)], alignment= MainAxisAlignment.CENTER)
+                        Row([Container(table)], alignment= MainAxisAlignment.CENTER),
+                        
             )
             page.update()
 
     def search_clicked(e):
         allormonth()
+        page.update()
 
-        
+    def delete_clicked(e):
+        elg.delete_expense(EnterUnit.value, MonthDropDown.value)
+        page.update()
 
 
-    b = ft.IconButton(icon=icons.SEARCH_ROUNDED, icon_color='#D67229', on_click=search_clicked, icon_size= 50 )
+    b = IconButton(icon=icons.SEARCH_ROUNDED, icon_color='#D67229', on_click=search_clicked, icon_size= 50 )
+    b_delete = FilledButton("Delete Expense",icon=icons.DELETE_OUTLINE_ROUNDED, icon_color='white', on_click=delete_clicked, style= ButtonStyle(color= 'white', bgcolor= 'red'),)
     page.add(Row([EnterUnit,MonthDropDown,b],alignment=MainAxisAlignment.CENTER),
              Row([Container(MonthCheck)], alignment=MainAxisAlignment.CENTER),
-
             )
     # print(u_val, m_val, r_val, e_val, w_val, o_val)
 

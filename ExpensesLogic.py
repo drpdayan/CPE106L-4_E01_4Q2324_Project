@@ -146,18 +146,16 @@ def delete_expense(unit, month):
         
         # projection = {"Unit": 1, "Month": 1}
         getunit = unitexpense.find({"Unit": unit, "Month": month})
-        delete_doc = unitexpense.delete_one({"Unit": unit, "Month":month})
+        delete_doc = unitexpense.delete_many({"Unit": unit, "Month":month})
         
         getunit
         delete_doc
+            # for x in getunit:
+        #     x.pop("_id", None)
+        #     UnitExpenseMonth.append(x)
+        # break
 
-        if delete_doc.deleted_count >= 1:
-            print("Document Deleted!")
-            break
-        else:
-            print("No Document Found")
-            break
-
+    return UnitExpenseMonth
 
 def get_values(unit, month):
     UnitMonthlyExpense = get_unit_expense_month(unit, month)
@@ -191,10 +189,4 @@ def get_values(unit, month):
 #     getit = get_values(unit, month)
 #     u_val, m_val, r_val, e_val, w_val, o_val = getit
 #     print(u_val, m_val, r_val, e_val, w_val, o_val)
-
-
-# if __name__ == "__main__":
-#     unit = input("Enter Unit: ")
-#     month = input("Enter Month: ")
-#     delete_expense(unit, month)
 

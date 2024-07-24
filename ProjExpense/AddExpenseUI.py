@@ -33,10 +33,8 @@ def main(page: ft.Page):
             t.value = "UNIT STATUS UPDATED"
         except:
             t.value = "ERROR! TRY AGAIN"
-        
-
         page.update()
-
+        
     t = Text()
     tb1 = TextField(label="Enter Unit", width= 200)
     unittext = Text(":Unit", font_family='RobotoMono', color="#D67229", size='20')
@@ -69,7 +67,6 @@ def main(page: ft.Page):
              Row([tb4,electext]), 
              Row([tb5,watertext]), b ,
              Row([t], alignment=MainAxisAlignment.CENTER)
-             
              )
-
+    page.update()
 ft.app(target=main)
