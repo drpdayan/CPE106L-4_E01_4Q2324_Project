@@ -4,7 +4,6 @@ import initiallogic as ilg
 from initiallogic import get_lessee_list as gll
 import ExpensesLogic as elg
 
-# print(glist)
 
 def main(page: Page) -> None:
     page.title = 'Application Collection System'
@@ -16,8 +15,8 @@ def main(page: Page) -> None:
         page.views.clear()
 
         #Home Page
-        page.window_width = 800
-        page.window_height = 300
+        page.window.width = 800
+        page.window.height = 550
         page.views.append(
             View(
                 route = '/',
@@ -27,38 +26,76 @@ def main(page: Page) -> None:
                     Row(
                         [
                         Container(
-                            IconButton(
-                                icon=ft.icons.PERSON_OUTLINE,
-                                icon_color="#FF7900",
-                                icon_size=150,
-                                tooltip="Lessee Profile",
+                                content= Row([IconButton(
+                                                        icon=ft.icons.PERSON_OUTLINE,
+                                                        icon_color="White",
+                                                        icon_size=75,
+                                                        
+                                                    ),
+                                                Text("Lessee Profile", font_family='RobotoMono',weight=FontWeight.BOLD , size='40' , color=colors.WHITE),
+                                            ]
+                                        ),
+                                
+                                padding = 7.5,
+                                bgcolor= "#D67229",
+                                shape= BoxShape.RECTANGLE,
+                                border_radius= 70,
+                                ink = True,
                                 on_click=lambda _:page.go('/poutline'),
-                            ),
-                            padding = 20
-                        ),
-                        Container(
-                            IconButton(
-                                icon=ft.icons.SENSOR_DOOR_OUTLINED,
-                                icon_color="#FF7900",
-                                icon_size=150,
-                                tooltip="Unit Status",
-                                on_click=lambda _:page.go('/ustatus'),
-                            ),
-                            padding = 20
-                        ),
-                        Container(
-                            IconButton(
-                                icon=ft.icons.ATTACH_MONEY_ROUNDED,
-                                icon_color="#FF7900",
-                                icon_size=150,
-                                tooltip="Payments",
-                                on_click=lambda _:page.go('/payment'),
-                            ),
-                            padding = 20
-                        ),
-                        ],
-                        alignment=MainAxisAlignment.CENTER,
+                                width= 525, margin= 5, tooltip="Lessee Profile"
+                        )
+                        ], alignment=MainAxisAlignment.CENTER
                     ),
+
+                    Row(
+                        [
+                        Container(
+                                content= Row([IconButton(
+                                                        icon=ft.icons.SENSOR_DOOR_OUTLINED,
+                                                        icon_color="White",
+                                                        icon_size=100,
+                                                        
+                                                    ),
+                                                Text("Unit Status", font_family='RobotoMono',weight=FontWeight.BOLD , size='40' , color=colors.WHITE),
+                                            ]
+                                        ),
+
+                                padding = 7.5,
+                                bgcolor= "#D67229",
+                                shape= BoxShape.RECTANGLE,
+                                border_radius= 70,
+                                ink = True,
+                                on_click=lambda _:page.go('/ustatus'),
+                                width= 525, margin= 5, tooltip="Unit Status"
+                        )
+                        ], alignment=MainAxisAlignment.CENTER
+                    ),
+
+                    Row(
+                        [
+                        Container(
+                                content= Row([IconButton(
+                                                        icon=ft.icons.ATTACH_MONEY_ROUNDED,
+                                                        icon_color="White",
+                                                        icon_size=100,
+                                                        
+                                                    ),
+                                                Text("Unit Expenses", font_family='RobotoMono',weight=FontWeight.BOLD , size='40' , color=colors.WHITE),
+                                            ]
+                                        ),
+
+                                padding = 7.5,
+                                bgcolor= "#D67229",
+                                shape= BoxShape.RECTANGLE,
+                                border_radius= 70,
+                                ink = True,
+                                on_click=lambda _:page.go('/payment'),
+                                width= 525, margin= 5, tooltip="Expenses"
+                        )
+                        ], alignment=MainAxisAlignment.CENTER
+                    ),
+
+
                 ],
 
             ),
@@ -100,10 +137,10 @@ def main(page: Page) -> None:
                                          )
  
 
-            tb1 = ft.TextField(label="Enter Unit")
-            b = ft.IconButton(icon=icons.SEARCH_SHARP,icon_size=50, on_click=lesseeinfo_button_clicked)
-            page.window_width = 750
-            page.window_height = 400
+            tb1 = TextField(label="Enter Unit")
+            b = IconButton(icon=icons.SEARCH_ROUNDED, icon_color='#D67229', icon_size= 50,  on_click=lesseeinfo_button_clicked)
+            page.window.width = 750
+            page.window.height = 400
             page.views.append(
                 #Top Layer
                 View(
@@ -140,10 +177,10 @@ def main(page: Page) -> None:
                 page.update()
             t = Text(color='gray', weight=FontWeight.BOLD, size=25, font_family="RobotoSlab",)
 
-            PurposeDropDown = ft.Dropdown(
+            PurposeDropDown = Dropdown(
                 hint_text= "Enter Purpose",
                 options=[
-                    ft.dropdown.Option("Commerical"), ft.dropdown.Option("Residential"), ft.dropdown.Option("Vacant"), 
+                    dropdown.Option("Commercial"), dropdown.Option("Residential"), dropdown.Option("Vacant"), 
                 ], 
             )
             
@@ -154,10 +191,10 @@ def main(page: Page) -> None:
             nametext = Text(":Name", font_family='RobotoMono', color="#D67229", size='20')
             vtin = TextField(label="Enter TIN")
             tintext = Text(":Tax Identification Number", font_family='RobotoMono', color="#D67229", size='20')
-            b = ft.ElevatedButton(text="Update", color='#D67229', on_click=lessee_button_clicked)
+            b = ElevatedButton(text="Update", color='#D67229', on_click=lessee_button_clicked)
 
-            page.window_width = 750
-            page.window_height = 475
+            page.window.width = 750
+            page.window.height = 475
             page.views.append(
                 #Top Layer
                 View(
@@ -211,10 +248,10 @@ def main(page: Page) -> None:
                                          )
  
 
-            tb1 = ft.TextField(label="Enter Unit")
-            b = ft.IconButton(icon=icons.SEARCH_SHARP, on_click=unitinfo_button_clicked)
-            page.window_width = 600
-            page.window_height = 400
+            tb1 = TextField(label="Enter Unit")
+            b = IconButton(icon=icons.SEARCH_ROUNDED, icon_color='#D67229', icon_size= 50,  on_click=unitinfo_button_clicked)
+            page.window.width = 600
+            page.window.height = 400
             page.views.append(
                 #Top Layer
                 View(
@@ -255,10 +292,10 @@ def main(page: Page) -> None:
                 font_family="RobotoSlab",
                 )
 
-            OccupancyDropDown = ft.Dropdown(
+            OccupancyDropDown = Dropdown(
                 hint_text= "Enter Status",
                 options=[
-                    ft.dropdown.Option("Occupied"), ft.dropdown.Option("Vacant"), 
+                    dropdown.Option("Occupied"), dropdown.Option("Vacant"), 
                 ], 
             )
 
@@ -267,10 +304,10 @@ def main(page: Page) -> None:
             statustext = Text(":Occupancy Status (Occupied/Vacant)", font_family='RobotoMono', color="#D67229", size='20')
             vdate = TextField(label="Enter Date")
             datetext = Text(":Lease Date (dd/mm/yyyy)", font_family='RobotoMono', color="#D67229", size='20')
-            b = ft.ElevatedButton(text="Update", color='#D67229', on_click=unit_button_clicked)
+            b = ElevatedButton(text="Update", color='#D67229', on_click=unit_button_clicked)
             
-            page.window_width = 800
-            page.window_height = 400
+            page.window.width = 800
+            page.window.height = 400
             page.views.append(
                 #Top Layer
                 View(
@@ -296,12 +333,12 @@ def main(page: Page) -> None:
             EnterUnit = TextField(label="Enter Unit", width=150)
 
             #Dropdown Menu
-            MonthDropDown = ft.Dropdown(
+            MonthDropDown = Dropdown(
                 disabled= True,
                 hint_text="Enter Month",
                 options=[
-                    ft.dropdown.Option("January"), ft.dropdown.Option("February"), ft.dropdown.Option("March"), ft.dropdown.Option("April"), ft.dropdown.Option("May"), ft.dropdown.Option("June"), 
-                    ft.dropdown.Option("July"), ft.dropdown.Option("August"), ft.dropdown.Option("September"), ft.dropdown.Option("October"), ft.dropdown.Option("November"), ft.dropdown.Option("December"),
+                    dropdown.Option("January"), dropdown.Option("February"), dropdown.Option("March"), dropdown.Option("April"), dropdown.Option("May"), dropdown.Option("June"), 
+                    dropdown.Option("July"), dropdown.Option("August"), dropdown.Option("September"), dropdown.Option("October"), dropdown.Option("November"), dropdown.Option("December"),
                 ],
                 width=200,
             )
@@ -309,7 +346,7 @@ def main(page: Page) -> None:
             def checkbox_changed(e):
                 MonthDropDown.disabled =  not e.control.value
                 page.update()
-            MonthCheck = ft.Checkbox(label="Search for Specific Month",label_position= LabelPosition.LEFT, on_change=checkbox_changed)
+            MonthCheck = Checkbox(label="Search for Specific Month",label_position= LabelPosition.LEFT, on_change=checkbox_changed)
 
             def allormonth():
                 if MonthCheck.value == True:
@@ -338,12 +375,12 @@ def main(page: Page) -> None:
 
                     #Icon Template
                     def badge(icon, iconsize, expensepercent):
-                        return ft.Container(
-                            ft.Icon(icon, size= iconsize, tooltip= f"{expensepercent:.2f}%"), width=iconsize, height=iconsize, bgcolor=colors.TRANSPARENT, 
+                        return Container(
+                            Icon(icon, size= iconsize, tooltip= f"{expensepercent:.2f}%"), width=iconsize, height=iconsize, bgcolor=colors.TRANSPARENT, 
                             )
 
                     #PieChart Hover
-                    def on_chart_event_pie(e: ft.PieChartEvent):
+                    def on_chart_event_pie(e: PieChartEvent):
                         for idx, section in enumerate(chart.sections):
                             if idx == e.section_index:
                                 section.radius = hover_radius
@@ -355,49 +392,49 @@ def main(page: Page) -> None:
                         chart.update()
 
                     #Pie Chart
-                    chart = ft.PieChart(
+                    chart = PieChart(
                         
                         sections=[
-                            ft.PieChartSection(
+                            PieChartSection(
                                 r_val,
                                 title=f"Rent: \n ₱ {r_val:.2f} ",
                                 title_position=1.25 ,
                                 title_style=normal_title_style,
-                                color=ft.colors.BROWN_400,
+                                color=colors.BROWN_400,
                                 radius=normal_radius,
                                 badge=badge(icons.OTHER_HOUSES, badge_size, rent_percent),
                                 badge_position=0.50,
 
                             ),
-                            ft.PieChartSection(
+                            PieChartSection(
                                 e_val,
                                 title=f"Electricity: \n ₱ {e_val:.2f} ",
                                 title_position=1.25,
                                 title_style=normal_title_style,
-                                color=ft.colors.YELLOW_400,
+                                color=colors.YELLOW_400,
                                 radius=normal_radius,
                                 badge=badge(icons.ELECTRIC_BOLT, badge_size, elec_percent),
                                 badge_position=0.50,
 
                             ),
-                            ft.PieChartSection(
+                            PieChartSection(
                                 w_val,
                                 title=f"Water: \n ₱ {w_val:.2f} ",
                                 title_position=1.25,
                                 title_style=normal_title_style,
-                                color=ft.colors.BLUE_400,
+                                color=colors.BLUE_400,
                                 radius=normal_radius,
-                                badge=badge(ft.icons.WATER_DROP, badge_size, wat_percent),
+                                badge=badge(icons.WATER_DROP, badge_size, wat_percent),
                                 badge_position=0.50,
                             ),
-                            ft.PieChartSection(
+                            PieChartSection(
                                 o_val,
                                 title=f"Oustanding Balance: \n ₱ {o_val:.2f} ",
                                 title_position=1.25,
                                 title_style=normal_title_style,
-                                color=ft.colors.GREEN_400,
+                                color=colors.GREEN_400,
                                 radius=normal_radius,
-                                badge=badge(ft.icons.ATTACH_MONEY, badge_size, out_percent),
+                                badge=badge(icons.ATTACH_MONEY, badge_size, out_percent),
                                 badge_position=0.50,
                             ),
                         ],
@@ -408,40 +445,40 @@ def main(page: Page) -> None:
                     )
 
                     RentContainer = Container(
-                                        theme=ft.Theme(color_scheme_seed=ft.colors.INDIGO),
-                                        # theme_mode=ft.ThemeMode.DARK,
+                                        theme=Theme(color_scheme_seed=colors.INDIGO),
+                                        # theme_mode=ThemeMode.DARK,
                                         content=Text(f"RENT: ₱{r_val:.2f} ", font_family='RobotoSlab', weight=FontWeight.BOLD, color="Gray", size='20'), 
-                                        bgcolor=ft.colors.BROWN_400,
+                                        bgcolor=colors.BROWN_400,
                                         padding=20,
                                         width=450,
                                         border_radius=30,ink=True,
                                         )
-                    # RentIcon = Container(Icon(icons.ELECTRIC_BOLT), border=ft.border.all(ft.colors.BROWN_300), width=70, height = 70, border_radius= 200)
+                    # RentIcon = Container(Icon(icons.ELECTRIC_BOLT), border=border.all(colors.BROWN_300), width=70, height = 70, border_radius= 200)
                     ElecContainer = Container(
-                                        theme=ft.Theme(color_scheme_seed=ft.colors.INDIGO),
-                                        # theme_mode=ft.ThemeMode.DARK,
+                                        theme=Theme(color_scheme_seed=colors.INDIGO),
+                                        # theme_mode=ThemeMode.DARK,
                                         content=Text(f"ELECTRICITY: ₱{e_val:.2f} ", font_family='RobotoSlab', weight=FontWeight.BOLD, color="Gray", size='20'), 
-                                        bgcolor=ft.colors.YELLOW_400,
+                                        bgcolor=colors.YELLOW_400,
                                         padding=20,
                                         width=450,
                                         border_radius=30,  
                                         )
 
                     WaterContainer = Container(
-                                        theme=ft.Theme(color_scheme_seed=ft.colors.INDIGO),
-                                        # theme_mode=ft.ThemeMode.DARK,
+                                        theme=Theme(color_scheme_seed=colors.INDIGO),
+                                        # theme_mode=ThemeMode.DARK,
                                         content=Text(f"WATER: ₱{w_val:.2f} ", font_family='RobotoSlab', weight=FontWeight.BOLD, color="Gray", size='20'),
-                                        bgcolor=ft.colors.BLUE_400,
+                                        bgcolor=colors.BLUE_400,
                                         padding=20,
                                         width=450,
                                         border_radius=30,  
                                         )
 
                     OutContainer = Container(
-                                        theme=ft.Theme(color_scheme_seed=ft.colors.INDIGO),
-                                        # theme_mode=ft.ThemeMode.DARK,
+                                        theme=Theme(color_scheme_seed=colors.INDIGO),
+                                        # theme_mode=ThemeMode.DARK,
                                         content=Text(f"OUTSTANDING: ₱{o_val:.2f} ", font_family='RobotoSlab', weight=FontWeight.BOLD, color="Gray", size='20'),
-                                        bgcolor=ft.colors.GREEN_400,
+                                        bgcolor=colors.GREEN_400,
                                         padding=20,
                                         width=450,
                                         border_radius=30,  
@@ -454,9 +491,9 @@ def main(page: Page) -> None:
                             controls = [
                                 AppBar(title=Text('Payments', font_family='RobotoSlab',weight=FontWeight.NORMAL , size='28' , color=colors.GREY_900), bgcolor='#f0a150'),
                                 # IconButton(
-                                #     icon=ft.icons.HOME_ROUNDED, icon_color="black", icon_size=75, tooltip="Home Page", on_click=lambda _:page.go('/')
+                                #     icon=icons.HOME_ROUNDED, icon_color="black", icon_size=75, tooltip="Home Page", on_click=lambda _:page.go('/')
                                 # ),
-                                Row([EnterUnit,MonthDropDown,b],alignment=MainAxisAlignment.CENTER),
+                                Row([EnterUnit,MonthDropDown,b, Go_AddExpenses],alignment=MainAxisAlignment.CENTER),
                                 Row([Container(MonthCheck)], alignment=MainAxisAlignment.CENTER),
                                 Container(chart, margin=125, alignment=alignment.center),
                                 Row([RentContainer,], MainAxisAlignment.CENTER, spacing= -100),
@@ -483,15 +520,15 @@ def main(page: Page) -> None:
 
                     # Create DataColumn objects for each key with Text controls (numeric for Age)
                     flet_columns = [
-                        ft.DataColumn(ft.Text(col_name, font_family="RobotoSlab", weight=FontWeight.BOLD, size=16))
+                        DataColumn(Text(col_name, font_family="RobotoSlab", weight=FontWeight.BOLD, size=16))
                         for col_name in columns
                     ]
 
                     # Create DataRow objects from each dictionary in the list
                     flet_rows = []
                     for x in getall:
-                        cells = [ft.DataCell(ft.Text(str(value), font_family="RobotoMono", weight=FontWeight.NORMAL, size=14)) for value in x.values()]
-                        flet_rows.append(ft.DataRow(cells=cells,))
+                        cells = [DataCell(Text(str(value), font_family="RobotoMono", weight=FontWeight.NORMAL, size=14)) for value in x.values()]
+                        flet_rows.append(DataRow(cells=cells,))
 
                     # Create the DataTable object
                     table= DataTable(
@@ -509,9 +546,9 @@ def main(page: Page) -> None:
                                 #Top Layer
                                 AppBar(title=Text('Payments', font_family='RobotoSlab',weight=FontWeight.NORMAL , size='28' , color=colors.GREY_900), bgcolor='#f0a150'),
                                 # IconButton(
-                                #     icon=ft.icons.HOME_ROUNDED, icon_color="black", icon_size=75, tooltip="Home Page", on_click=lambda _:page.go('/')
+                                #     icon=icons.HOME_ROUNDED, icon_color="black", icon_size=75, tooltip="Home Page", on_click=lambda _:page.go('/')
                                 # ),
-                                Row([EnterUnit,MonthDropDown,b],alignment=MainAxisAlignment.CENTER),
+                                Row([EnterUnit,MonthDropDown,b, Go_AddExpenses],alignment=MainAxisAlignment.CENTER),
                                 Row([Container(MonthCheck)], alignment=MainAxisAlignment.CENTER),
                                 Row([Container(table)], alignment= MainAxisAlignment.CENTER)
             
@@ -528,7 +565,7 @@ def main(page: Page) -> None:
                 elg.delete_expense(EnterUnit.value, MonthDropDown.value)
                 page.update()
 
-            b = ft.IconButton(icon=icons.SEARCH_ROUNDED, icon_color='#D67229', on_click=search_clicked, icon_size= 50 )
+            b = IconButton(icon=icons.SEARCH_ROUNDED, icon_color='#D67229', on_click=search_clicked, icon_size= 50 )
             b_delete = FilledButton("Delete Expense",icon=icons.DELETE_OUTLINE_ROUNDED, icon_color='white', on_click=delete_clicked, style= ButtonStyle(color= 'white', bgcolor= 'red'),)
             Go_AddExpenses = ElevatedButton("Add Unit Expenses",
                                          icon=icons.UPDATE_ROUNDED,
@@ -536,8 +573,8 @@ def main(page: Page) -> None:
                                          color="#D67229",
                                          on_click=lambda _:page.go('/apayment') 
                                          )
-            page.window_width = 900
-            page.window_height =750
+            page.window.width = 900
+            page.window.height =750
             page.views.append(
                 View(
                     route = '/payment',
@@ -545,7 +582,7 @@ def main(page: Page) -> None:
                         #Top Layer
                         AppBar(title=Text('Payments',  font_family='RobotoSlab',weight=FontWeight.NORMAL , size='28' , color=colors.GREY_900), bgcolor='#f0a150'),
                         # IconButton(
-                        #     icon=ft.icons.HOME_ROUNDED, icon_color="black", icon_size=75, tooltip="Home Page", on_click=lambda _:page.go('/')
+                        #     icon=icons.HOME_ROUNDED, icon_color="black", icon_size=75, tooltip="Home Page", on_click=lambda _:page.go('/')
                         # ),
                         Row([EnterUnit,MonthDropDown,b, Go_AddExpenses],alignment=MainAxisAlignment.CENTER),
                         Row([Container(MonthCheck)], alignment=MainAxisAlignment.CENTER),     
@@ -556,8 +593,8 @@ def main(page: Page) -> None:
 
         #Add_Payments Page
         if page.route == '/apayment':
-            page.window_width = 900
-            page.window_height =750
+            page.window.width = 900
+            page.window.height =750
 
             def checkbox_changed(e):
                 tb2.disabled =  not e.control.value
@@ -586,13 +623,13 @@ def main(page: Page) -> None:
             t = Text()
             tb1 = TextField(label="Enter Unit", width= 200)
             unittext = Text(":Unit", font_family='RobotoMono', color="#D67229", size='20')
-            c = ft.Checkbox(label="Outstanding Balance?",label_position= LabelPosition.LEFT, on_change=checkbox_changed)
-            MonthDropDown = ft.Dropdown(
+            c = Checkbox(label="Outstanding Balance?",label_position= LabelPosition.LEFT, on_change=checkbox_changed)
+            MonthDropDown = Dropdown(
                 hint_text= "Enter Month",
                 width=200,
                 options=[
-                    ft.dropdown.Option("January"), ft.dropdown.Option("February"), ft.dropdown.Option("March"), ft.dropdown.Option("April"), ft.dropdown.Option("May"), ft.dropdown.Option("June"), 
-                    ft.dropdown.Option("July"), ft.dropdown.Option("August"), ft.dropdown.Option("September"), ft.dropdown.Option("October"), ft.dropdown.Option("November"), ft.dropdown.Option("December")
+                    dropdown.Option("January"), dropdown.Option("February"), dropdown.Option("March"), dropdown.Option("April"), dropdown.Option("May"), dropdown.Option("June"), 
+                    dropdown.Option("July"), dropdown.Option("August"), dropdown.Option("September"), dropdown.Option("October"), dropdown.Option("November"), dropdown.Option("December")
                 ],
             )
             tb2 = TextField(label="Enter Outstanding Balance", disabled=True)
@@ -606,7 +643,7 @@ def main(page: Page) -> None:
             monthtext = Text(":Month", font_family='RobotoMono', color="#D67229", size='20')
             t = Text(color='gray', weight=FontWeight.BOLD, size=25, font_family="RobotoSlab")
 
-            b_update = ft.ElevatedButton(text="Add Expense", color='#D67229', on_click=button_clicked)
+            b_update = ElevatedButton(text="Add Expense", color='#D67229', on_click=button_clicked)
 
             page.views.append(
                 View(
@@ -615,7 +652,7 @@ def main(page: Page) -> None:
                         #Top Layer
                         AppBar(title=Text('Add Payments',  font_family='RobotoSlab',weight=FontWeight.NORMAL , size='28' , color=colors.GREY_900), bgcolor='#f0a150'),
                         # IconButton(
-                        #     icon=ft.icons.HOME_ROUNDED, icon_color="black", icon_size=75, tooltip="Home Page", on_click=lambda _:page.go('/')
+                        #     icon=icons.HOME_ROUNDED, icon_color="black", icon_size=75, tooltip="Home Page", on_click=lambda _:page.go('/')
                         # ),
                         # Row([EnterUnit,MonthDropDown,b],alignment=MainAxisAlignment.CENTER),
                         # Row([Container(MonthCheck)], alignment=MainAxisAlignment.CENTER),
@@ -644,7 +681,7 @@ def main(page: Page) -> None:
     page.go(page.route)
 
 if __name__ == '__main__':
-    ft.app(target = main)
+    app(target = main)
 
 
 

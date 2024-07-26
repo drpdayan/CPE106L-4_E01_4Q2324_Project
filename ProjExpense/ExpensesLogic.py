@@ -170,7 +170,31 @@ def get_values(unit, month):
     o_val = get_val['Outstanding Balance']
     return u_val, m_val, r_val, e_val, w_val, o_val
 
+def get_unit_expense_all_line(unit):
+    client = mc("mongodb://localhost:27017/")
+    db = client["ApartmentCollectionSystem"]
+    unitexpense = db["Unit_Expenses"] 
 
+    checkunit = unitexpense.find_one({"Unit": unit})
+    while checkunit:
+        if not checkunit:
+            print(f"Unit Number '{unit}' not found.")
+            break
+
+        UnitExpenseAll = []
+        getunit = unitexpense.find({"Unit": unit})
+        for x in getunit:
+            x.pop("_id", None)
+            UnitExpenseAll.append(x)
+        
+        month_mapping = {"January": 1, "February": 2, "March": 3, "April": 4, "May": 5, "June": 6, "July": 7, "August": 8, "September": 9, "October": 10, "November": 11  ,"December": 12}
+        for x in UnitExpenseAll:
+            x["Month_Num"] = month_mapping.get(x["Month"], None)
+            
+
+        break
+
+    return UnitExpenseAll
 
 # if __name__ == "__main__":
 #     unit = input("Enter Unit: ")
@@ -198,3 +222,7 @@ def get_values(unit, month):
 #     month = input("Enter Month: ")
 #     delete_expense(unit, month)
 
+if __name__ == "__main__":
+    unit = input("Enter Unit: ")
+    get_unit_expense_all_line(unit)
+    print(get_unit_expense_all(unit))
