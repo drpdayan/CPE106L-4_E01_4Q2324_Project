@@ -18,19 +18,35 @@ def main(page: ft.Page):
     def button_clicked(e):
         if c.value == False:
                 out_bal = 0.00
+                out_bal = float(out_bal)
                 ren = tb3.value
+                ren = float(ren)
                 elec = tb4.value
+                elec = float(elec)
                 wat = tb5.value
+                wat = float(wat)
+                paid = tb6.value
+                paid = float(paid)
 
         elif c.value == True:
                 out_bal = tb2.value
                 ren = tb3.value
                 elec = tb4.value
                 wat = tb5.value
-
+                paid = tb6.value
+                out_bal = float(out_bal)
+                ren = float(ren)
+                elec = float(elec)
+                wat = float(wat)
+                paid = float(paid)
+        
+        totalval = out_bal+ren+elec+wat
+        pendingval = totalval-paid
+        
         try:
-            elg.add_expense(tb1.value, MonthDropDown.value, c.value, out_bal, ren, elec, wat)
-            t.value = "UNIT STATUS UPDATED"
+            elg.add_expense(tb1.value, MonthDropDown.value, c.value, out_bal, ren, elec, wat, paid, pendingval, totalval)
+            t.value = f"Outstanding Balance for Next Month: ₱{pendingval:.2f}"
+            print(pendingval)
         except:
             t.value = "ERROR! TRY AGAIN"
         page.update()
@@ -57,6 +73,9 @@ def main(page: ft.Page):
     watertext = Text(":Water", font_family='RobotoMono', color="#D67229", size='20')
     monthtext = Text(":Month", font_family='RobotoMono', color="#D67229", size='20')
     t = Text(color='gray', weight=FontWeight.BOLD, size=25, font_family="RobotoSlab")
+    tb6 = TextField(label="Enter Amount Paid")
+    paidtext = Text(":Amount Paid", font_family='RobotoMono', color="#D67229", size='20')
+    
 
     b = ft.ElevatedButton(text="Add Expense", color='#D67229', on_click=button_clicked)
     page.add(Row([tb1,unittext]),
@@ -65,7 +84,8 @@ def main(page: ft.Page):
              Row([tb2,outtext]),
              Row([tb3,renttext]), 
              Row([tb4,electext]), 
-             Row([tb5,watertext]), b ,
+             Row([tb5,watertext]),
+             Row([tb6,paidtext]), b ,
              Row([t], alignment=MainAxisAlignment.CENTER)
              )
     page.update()

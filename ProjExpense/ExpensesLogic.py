@@ -74,7 +74,7 @@ def get_unit_expense_month(unit, month):
     return UnitExpenseMonth
 
 #parameters (unit, check_out, outstanding, month, rent, electricity, water)
-def add_expense(unit, month, check_out, outstanding,  rent, electricity, water):
+def add_expense(unit, month, check_out, outstanding,  rent, electricity, water, paid, pending, total):
     client = mc("mongodb://localhost:27017/")
     db = client["ApartmentCollectionSystem"]
     unitexpense = db["Unit_Expenses"] 
@@ -115,13 +115,29 @@ def add_expense(unit, month, check_out, outstanding,  rent, electricity, water):
             print("Invalid Input Elec. Try Again.")
             return False
         
+        
+        new_paid =  float(paid)
+        if not isinstance(new_paid, float):
+            print("Invalid Input Water. Try Again.")
+            return False
+        
+        new_pending =  float(pending)
+        if not isinstance(new_pending, float):
+            print("Invalid Input Water. Try Again.")
+            return False
+        
+        new_total =  float(total)
+        if not isinstance(new_total, float):
+            print("Invalid Input Water. Try Again.")
+            return False
+        
         # new_water =  float(input("Enter Water Bill: "))
         new_water =  float(water)
         if not isinstance(new_water, float):
             print("Invalid Input Water. Try Again.")
             return False
 
-        new_expense = {"Unit": unit, "Month": new_month, "Rent": new_rent, "Electricity": new_electricity, "Water": new_water, "Outstanding Balance": new_outstanding,}
+        new_expense = {"Unit": unit, "Month": new_month, "Rent": new_rent, "Electricity": new_electricity, "Water": new_water, "Outstanding Balance": new_outstanding, "Amount Paid": new_paid, "Pending Balance": new_pending, "Total Amount": new_total }
         unitexpense.insert_many([new_expense])
         
         break
@@ -168,7 +184,10 @@ def get_values(unit, month):
     e_val = get_val['Electricity']
     w_val = get_val['Water']
     o_val = get_val['Outstanding Balance']
-    return u_val, m_val, r_val, e_val, w_val, o_val
+    t_val = get_val['Total Amount']
+    p_val = get_val['Amount Paid']
+    pend_val = get_val['Pending Balance']
+    return u_val, m_val, r_val, e_val, w_val, o_val, t_val, p_val, pend_val
 
 def get_unit_expense_all_line(unit):
     client = mc("mongodb://localhost:27017/")
@@ -222,7 +241,7 @@ def get_unit_expense_all_line(unit):
 #     month = input("Enter Month: ")
 #     delete_expense(unit, month)
 
-if __name__ == "__main__":
-    unit = input("Enter Unit: ")
-    get_unit_expense_all_line(unit)
-    print(get_unit_expense_all(unit))
+# if __name__ == "__main__":
+#     unit = input("Enter Unit: ")
+#     get_unit_expense_all_line(unit)
+#     print(get_unit_expense_all(unit))

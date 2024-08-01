@@ -2,7 +2,7 @@ import flet as ft
 from flet import *
 import ExpensesLogic as elg
 
-unit = "2C"
+unit = "3F"
 getall = elg.get_unit_expense_all(unit)
 
 
@@ -14,7 +14,7 @@ def main(page: ft.Page):
 
 
 
-    page.window.width = 750
+    page.window.width = 1250
     page.window.height = 1000
 
         # Extract column names from the dictionary keys
@@ -37,7 +37,7 @@ def main(page: ft.Page):
         columns=flet_columns,
         rows=flet_rows,
         column_spacing=15,
-        width=700,
+        width=1200,
         border_radius= 20
         
     )

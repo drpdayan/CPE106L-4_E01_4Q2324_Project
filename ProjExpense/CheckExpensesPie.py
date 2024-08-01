@@ -12,17 +12,15 @@ def main(page: ft.Page):
     }
 
     unit = "3E"
-    month = "February"
+    month = "January"
 
-    page.window.width = 750
+    page.window.width = 1000
     page.window.height = 1000
 
 
 
     getit = elg.get_values(unit, month)
-    u_val, m_val, r_val, e_val, w_val, o_val = getit
-    # print(u_val, m_val, r_val, e_val, w_val, o_val)
-    # get_uval.value= f"{u_val}"
+    u_val, m_val, r_val, e_val, w_val, o_val, t_val, p_val, pend_val = getit
     page.update()
 
     expense_total = (r_val + e_val + w_val + o_val)
@@ -112,51 +110,65 @@ def main(page: ft.Page):
     )
 
     RentContainer = Container(
-                        theme=ft.Theme(color_scheme_seed=ft.colors.INDIGO),
-                        # theme_mode=ft.ThemeMode.DARK,
-                        content=Text(f"RENT: ₱{r_val:.2f} ", font_family='RobotoSlab', weight=FontWeight.BOLD, color="Gray", size='20'), 
+                        theme_mode=ft.ThemeMode.LIGHT,
+                        content=Column([Icon(name=icons.HOUSE, color="Gray", size='50'), 
+                                    Text(f"RENT:", font_family='RobotoSlab', weight=FontWeight.BOLD, color="Gray", size='20'),
+                                    Text(f"₱{r_val:.2f} ", font_family='RobotoSlab', weight=FontWeight.BOLD, color="Gray", size='30'),
+                                    ],alignment=MainAxisAlignment.CENTER, horizontal_alignment=CrossAxisAlignment.CENTER), 
                         bgcolor=ft.colors.BROWN_400,
                         padding=20,
-                        width=450,
+                        width=200,
                         border_radius=30,ink=True,
                         )
     # RentIcon = Container(Icon(icons.ELECTRIC_BOLT), border=ft.border.all(ft.colors.BROWN_300), width=70, height = 70, border_radius= 200)
     ElecContainer = Container(
-                        theme=ft.Theme(color_scheme_seed=ft.colors.INDIGO),
-                        # theme_mode=ft.ThemeMode.DARK,
-                        content=Text(f"ELECTRICITY: ₱{e_val:.2f} ", font_family='RobotoSlab', weight=FontWeight.BOLD, color="Gray", size='20'), 
+                        theme_mode=ft.ThemeMode.LIGHT,
+                        content=Column([Icon(name=icons.ELECTRIC_BOLT_ROUNDED, color="Gray", size='50'), 
+                                    Text(f"ELECTRICITY:", font_family='RobotoSlab', weight=FontWeight.BOLD, color="Gray", size='20'),
+                                    Text(f"₱{e_val:.2f} ", font_family='RobotoSlab', weight=FontWeight.BOLD, color="Gray", size='30'),
+                                    ],alignment=MainAxisAlignment.CENTER, horizontal_alignment=CrossAxisAlignment.CENTER), 
                         bgcolor=ft.colors.YELLOW_400,
                         padding=20,
-                        width=450,
-                        border_radius=30,  
+                        width=200,
+                        border_radius=30,ink=True,
                         )
 
     WaterContainer = Container(
-                        theme=ft.Theme(color_scheme_seed=ft.colors.INDIGO),
-                        # theme_mode=ft.ThemeMode.DARK,
-                        content=Text(f"WATER: ₱{w_val:.2f} ", font_family='RobotoSlab', weight=FontWeight.BOLD, color="Gray", size='20'),
+                        theme_mode=ft.ThemeMode.LIGHT,
+                        content=Column([Icon(name=icons.WATER_DROP_ROUNDED, color="Gray", size='50'), 
+                                    Text(f"WATER:", font_family='RobotoSlab', weight=FontWeight.BOLD, color="Gray", size='20'),
+                                    Text(f"₱{w_val:.2f} ", font_family='RobotoSlab', weight=FontWeight.BOLD, color="Gray", size='30'),
+                                    ],alignment=MainAxisAlignment.CENTER, horizontal_alignment=CrossAxisAlignment.CENTER), 
                         bgcolor=ft.colors.BLUE_400,
                         padding=20,
-                        width=450,
-                        border_radius=30,  
+                        width=200,
+                        border_radius=30,ink=True,
                         )
 
     OutContainer = Container(
-                        theme=ft.Theme(color_scheme_seed=ft.colors.INDIGO),
-                        # theme_mode=ft.ThemeMode.DARK,
-                        content=Text(f"OUTSTANDING: ₱{o_val:.2f} ", font_family='RobotoSlab', weight=FontWeight.BOLD, color="Gray", size='20'),
+                        theme_mode=ft.ThemeMode.LIGHT,
+                        content=Column([Icon(name=icons.ATTACH_MONEY_ROUNDED, color="Gray", size='50'), 
+                                    Text(f"OUTSTANDING:", font_family='RobotoSlab', weight=FontWeight.BOLD, color="Gray", size='20'),
+                                    Text(f"₱{o_val:.2f} ", font_family='RobotoSlab', weight=FontWeight.BOLD, color="Gray", size='30'),
+                                    ],alignment=MainAxisAlignment.CENTER, horizontal_alignment=CrossAxisAlignment.CENTER), 
                         bgcolor=ft.colors.GREEN_400,
                         padding=20,
-                        width=450,
-                        border_radius=30,  
+                        width=200,
+                        border_radius=30,ink=True,
                         )
+    PendingContainer = Container(
+                    theme_mode=ft.ThemeMode.LIGHT,
+                    content= Text(f"PENDING PAYMENT FOR NEXT MONTH: ₱{pend_val:.2f}", font_family='RobotoSlab', weight=FontWeight.BOLD, color="#f0a150", size='30'),
+                    border=border.all(7, color="#f0a150"),
+                    padding=20,
+                    width=850,
+                    border_radius=30,ink=True,
+                    )
 
     # b = ft.IconButton(icon=icons.SEARCH_ROUNDED, icon_color='#D67229', on_click=search_clicked, icon_size= 50 )
     page.add(Container(chart, margin=125, alignment=alignment.center),
-              Row([RentContainer,], MainAxisAlignment.CENTER, spacing= -100),
-              Row([ElecContainer,], MainAxisAlignment.CENTER), 
-              Row([WaterContainer,], MainAxisAlignment.CENTER), 
-              Row([OutContainer,], MainAxisAlignment.CENTER),  
+              Row([RentContainer, ElecContainer, WaterContainer, OutContainer], MainAxisAlignment.CENTER),
+              Row([PendingContainer], MainAxisAlignment.CENTER), 
             )
 
             
