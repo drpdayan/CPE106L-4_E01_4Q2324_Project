@@ -1,0 +1,400 @@
+[{
+  "_id": {
+    "$oid": "6697736073f2f7b9c5293957"
+  },
+  "Unit": "1A",
+  "Leasable Area": 56.4,
+  "Occupancy Status": "Vacant",
+  "Lease Date": null,
+  "Lease Period": 1
+},
+{
+  "_id": {
+    "$oid": "6697736073f2f7b9c5293958"
+  },
+  "Unit": "1B",
+  "Leasable Area": 57.58,
+  "Occupancy Status": "Occupied",
+  "Lease Date": "23/02/2024",
+  "Lease Period": 1
+},
+{
+  "_id": {
+    "$oid": "6697736073f2f7b9c5293959"
+  },
+  "Unit": "1C",
+  "Leasable Area": 57.58,
+  "Occupancy Status": "Occupied",
+  "Lease Date": "09/04/2024",
+  "Lease Period": 1
+},
+{
+  "_id": {
+    "$oid": "6697736073f2f7b9c529395a"
+  },
+  "Unit": "1D",
+  "Leasable Area": 58.75,
+  "Occupancy Status": "Occupied",
+  "Lease Date": "17/05/2024",
+  "Lease Period": 1
+},
+{
+  "_id": {
+    "$oid": "6697736073f2f7b9c529395b"
+  },
+  "Unit": "2A",
+  "Leasable Area": 22.82,
+  "Occupancy Status": "Occupied",
+  "Lease Date": "18/05/2024",
+  "Lease Period": 1
+},
+{
+  "_id": {
+    "$oid": "6697736073f2f7b9c529395c"
+  },
+  "Unit": "2B",
+  "Leasable Area": 35,
+  "Occupancy Status": "Occupied",
+  "Lease Date": "21/07/2023",
+  "Lease Period": 1
+},
+{
+  "_id": {
+    "$oid": "6697736073f2f7b9c529395d"
+  },
+  "Unit": "2C",
+  "Leasable Area": 22.82,
+  "Occupancy Status": "Occupied",
+  "Lease Date": "01/06/2024",
+  "Lease Period": 1
+},
+{
+  "_id": {
+    "$oid": "6697736073f2f7b9c529395e"
+  },
+  "Unit": "2D",
+  "Leasable Area": 35,
+  "Occupancy Status": "Vacant",
+  "Lease Date": null,
+  "Lease Period": 1
+},
+{
+  "_id": {
+    "$oid": "6697736073f2f7b9c529395f"
+  },
+  "Unit": "2E",
+  "Leasable Area": 22.82,
+  "Occupancy Status": "Vacant",
+  "Lease Date": null,
+  "Lease Period": null
+},
+{
+  "_id": {
+    "$oid": "6697736073f2f7b9c5293960"
+  },
+  "Unit": "2F",
+  "Leasable Area": 35,
+  "Occupancy Status": "Vacant",
+  "Lease Date": null,
+  "Lease Period": 1
+},
+{
+  "_id": {
+    "$oid": "6697736073f2f7b9c5293961"
+  },
+  "Unit": "2G",
+  "Leasable Area": 22.82,
+  "Occupancy Status": "Occupied",
+  "Lease Date": "15/04/2024",
+  "Lease Period": 1
+},
+{
+  "_id": {
+    "$oid": "6697736073f2f7b9c5293962"
+  },
+  "Unit": "2H",
+  "Leasable Area": 35,
+  "Occupancy Status": "Occupied",
+  "Lease Date": "08/09/2023",
+  "Lease Period": 1
+},
+{
+  "_id": {
+    "$oid": "6697736073f2f7b9c5293963"
+  },
+  "Unit": "2I",
+  "Leasable Area": 22.82,
+  "Occupancy Status": "Occupied",
+  "Lease Date": "21/03/2024",
+  "Lease Period": 1
+},
+{
+  "_id": {
+    "$oid": "6697736073f2f7b9c5293964"
+  },
+  "Unit": "2J",
+  "Leasable Area": 35,
+  "Occupancy Status": "Occupied",
+  "Lease Date": "13/01/2024",
+  "Lease Period": 1
+},
+{
+  "_id": {
+    "$oid": "6697736073f2f7b9c5293965"
+  },
+  "Unit": "2K",
+  "Leasable Area": 22.82,
+  "Occupancy Status": "Occupied",
+  "Lease Date": "08/01/2024",
+  "Lease Period": 1
+},
+{
+  "_id": {
+    "$oid": "6697736073f2f7b9c5293966"
+  },
+  "Unit": "2L",
+  "Leasable Area": 35,
+  "Occupancy Status": "Occupied",
+  "Lease Date": "26/02/2024",
+  "Lease Period": 1
+},
+{
+  "_id": {
+    "$oid": "6697736073f2f7b9c5293967"
+  },
+  "Unit": "3A",
+  "Leasable Area": 22.82,
+  "Occupancy Status": "Occupied",
+  "Lease Date": "07/01/2024",
+  "Lease Period": 1
+},
+{
+  "_id": {
+    "$oid": "6697736073f2f7b9c5293968"
+  },
+  "Unit": "3B",
+  "Leasable Area": 35,
+  "Occupancy Status": "Occupied",
+  "Lease Date": "10/08/2023",
+  "Lease Period": 1
+},
+{
+  "_id": {
+    "$oid": "6697736073f2f7b9c5293969"
+  },
+  "Unit": "3C",
+  "Leasable Area": 22.82,
+  "Occupancy Status": "Occupied",
+  "Lease Date": "02/09/2023",
+  "Lease Period": 1
+},
+{
+  "_id": {
+    "$oid": "6697736073f2f7b9c529396a"
+  },
+  "Unit": "3D",
+  "Leasable Area": 35,
+  "Occupancy Status": "Occupied",
+  "Lease Date": "28/12/2023",
+  "Lease Period": 1
+},
+{
+  "_id": {
+    "$oid": "6697736073f2f7b9c529396b"
+  },
+  "Unit": "3E",
+  "Leasable Area": 22.82,
+  "Occupancy Status": "Occupied",
+  "Lease Date": "15/11/2023",
+  "Lease Period": 1
+},
+{
+  "_id": {
+    "$oid": "6697736073f2f7b9c529396c"
+  },
+  "Unit": "3F",
+  "Leasable Area": 35,
+  "Occupancy Status": "Occupied",
+  "Lease Date": "25/10/2023",
+  "Lease Period": 1
+},
+{
+  "_id": {
+    "$oid": "6697736073f2f7b9c529396d"
+  },
+  "Unit": "3G",
+  "Leasable Area": 22.82,
+  "Occupancy Status": "Occupied",
+  "Lease Date": "30/07/2023",
+  "Lease Period": 1
+},
+{
+  "_id": {
+    "$oid": "6697736073f2f7b9c529396e"
+  },
+  "Unit": "3H",
+  "Leasable Area": 35,
+  "Occupancy Status": "Occupied",
+  "Lease Date": "18/08/2023",
+  "Lease Period": 1
+},
+{
+  "_id": {
+    "$oid": "6697736073f2f7b9c529396f"
+  },
+  "Unit": "3I",
+  "Leasable Area": 22.82,
+  "Occupancy Status": "Occupied",
+  "Lease Date": "05/08/2023",
+  "Lease Period": 1
+},
+{
+  "_id": {
+    "$oid": "6697736073f2f7b9c5293970"
+  },
+  "Unit": "3J",
+  "Leasable Area": 35,
+  "Occupancy Status": "Occupied",
+  "Lease Date": "20/10/2023",
+  "Lease Period": 1
+},
+{
+  "_id": {
+    "$oid": "6697736073f2f7b9c5293971"
+  },
+  "Unit": "3K",
+  "Leasable Area": 22.82,
+  "Occupancy Status": "Occupied",
+  "Lease Date": "11/10/2023",
+  "Lease Period": 1
+},
+{
+  "_id": {
+    "$oid": "6697736073f2f7b9c5293972"
+  },
+  "Unit": "3L",
+  "Leasable Area": 35,
+  "Occupancy Status": "Occupied",
+  "Lease Date": "06/04/2024",
+  "Lease Period": 1
+},
+{
+  "_id": {
+    "$oid": "6697736073f2f7b9c5293973"
+  },
+  "Unit": "4A",
+  "Leasable Area": 22.82,
+  "Occupancy Status": "Occupied",
+  "Lease Date": "15/12/2023",
+  "Lease Period": 1
+},
+{
+  "_id": {
+    "$oid": "6697736073f2f7b9c5293974"
+  },
+  "Unit": "4B",
+  "Leasable Area": 35,
+  "Occupancy Status": "Occupied",
+  "Lease Date": "26/10/2023",
+  "Lease Period": 1
+},
+{
+  "_id": {
+    "$oid": "6697736073f2f7b9c5293975"
+  },
+  "Unit": "4C",
+  "Leasable Area": 22.82,
+  "Occupancy Status": "Occupied",
+  "Lease Date": "07/11/2023",
+  "Lease Period": 1
+},
+{
+  "_id": {
+    "$oid": "6697736073f2f7b9c5293976"
+  },
+  "Unit": "4D",
+  "Leasable Area": 35,
+  "Occupancy Status": "Occupied",
+  "Lease Date": "28/08/2023",
+  "Lease Period": 1
+},
+{
+  "_id": {
+    "$oid": "6697736073f2f7b9c5293977"
+  },
+  "Unit": "4E",
+  "Leasable Area": 22.82,
+  "Occupancy Status": "Occupied",
+  "Lease Date": "12/01/2024",
+  "Lease Period": 1
+},
+{
+  "_id": {
+    "$oid": "6697736073f2f7b9c5293978"
+  },
+  "Unit": "4F",
+  "Leasable Area": 35,
+  "Occupancy Status": "Occupied",
+  "Lease Date": "15/12/2023",
+  "Lease Period": 1
+},
+{
+  "_id": {
+    "$oid": "6697736073f2f7b9c5293979"
+  },
+  "Unit": "4G",
+  "Leasable Area": 22.82,
+  "Occupancy Status": "Occupied",
+  "Lease Date": "10/04/2024",
+  "Lease Period": 1
+},
+{
+  "_id": {
+    "$oid": "6697736073f2f7b9c529397a"
+  },
+  "Unit": "4H",
+  "Leasable Area": 35,
+  "Occupancy Status": "Occupied",
+  "Lease Date": "16/02/2024",
+  "Lease Period": 1
+},
+{
+  "_id": {
+    "$oid": "6697736073f2f7b9c529397b"
+  },
+  "Unit": "4I",
+  "Leasable Area": 22.82,
+  "Occupancy Status": "Occupied",
+  "Lease Date": "01/09/2023",
+  "Lease Period": 1
+},
+{
+  "_id": {
+    "$oid": "6697736073f2f7b9c529397c"
+  },
+  "Unit": "4J",
+  "Leasable Area": 35,
+  "Occupancy Status": "Occupied",
+  "Lease Date": "13/09/2023",
+  "Lease Period": 1
+},
+{
+  "_id": {
+    "$oid": "6697736073f2f7b9c529397d"
+  },
+  "Unit": "4K",
+  "Leasable Area": 22.82,
+  "Occupancy Status": "Occupied",
+  "Lease Date": "29/01/2024",
+  "Lease Period": 1
+},
+{
+  "_id": {
+    "$oid": "6697736073f2f7b9c529397e"
+  },
+  "Unit": "4L",
+  "Leasable Area": 35,
+  "Occupancy Status": "Occupied",
+  "Lease Date": "29/04/2024",
+  "Lease Period": 1
+}]

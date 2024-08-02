@@ -1,0 +1,3220 @@
+[{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0145"
+  },
+  "Unit": "1A",
+  "Month": null,
+  "Rent": null,
+  "Electricity": null,
+  "Water": null,
+  "Outstanding Balance": null,
+  "Total Amount": null,
+  "Amount Paid": null,
+  "Pending Balance": null
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0146"
+  },
+  "Unit": "1B",
+  "Month": "January",
+  "Rent": 20000,
+  "Electricity": 13381,
+  "Water": 489,
+  "Outstanding Balance": 0,
+  "Total Amount": 33870,
+  "Amount Paid": 33870,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0147"
+  },
+  "Unit": "1B",
+  "Month": "February",
+  "Rent": 20000,
+  "Electricity": 13206.8,
+  "Water": 334,
+  "Outstanding Balance": 0,
+  "Total Amount": 33540.8,
+  "Amount Paid": 33540.8,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0148"
+  },
+  "Unit": "1B",
+  "Month": "March",
+  "Rent": 20000,
+  "Electricity": 15959.32,
+  "Water": 392,
+  "Outstanding Balance": 0,
+  "Total Amount": 36351.32,
+  "Amount Paid": 36351.32,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0149"
+  },
+  "Unit": "1B",
+  "Month": "April",
+  "Rent": 20000,
+  "Electricity": 13940,
+  "Water": 305,
+  "Outstanding Balance": 0,
+  "Total Amount": 34245,
+  "Amount Paid": 34245,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade014a"
+  },
+  "Unit": "1B",
+  "Month": "May",
+  "Rent": 20000,
+  "Electricity": 14121.6,
+  "Water": 407,
+  "Outstanding Balance": 0,
+  "Total Amount": 34528.6,
+  "Amount Paid": 34528.6,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade014b"
+  },
+  "Unit": "1B",
+  "Month": "June",
+  "Rent": 20000,
+  "Electricity": 15167.5,
+  "Water": 426,
+  "Outstanding Balance": 0,
+  "Total Amount": 35593.5,
+  "Amount Paid": 35593.5,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade014c"
+  },
+  "Unit": "1C",
+  "Month": "January",
+  "Rent": 20000,
+  "Electricity": 14571,
+  "Water": 415,
+  "Outstanding Balance": 0,
+  "Total Amount": 34986,
+  "Amount Paid": 34986,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade014d"
+  },
+  "Unit": "1C",
+  "Month": "February",
+  "Rent": 20000,
+  "Electricity": 14641.2,
+  "Water": 350,
+  "Outstanding Balance": 0,
+  "Total Amount": 34991.2,
+  "Amount Paid": 34991.2,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade014e"
+  },
+  "Unit": "1C",
+  "Month": "March",
+  "Rent": 20000,
+  "Electricity": 15933.4,
+  "Water": 415,
+  "Outstanding Balance": 0,
+  "Total Amount": 36348.4,
+  "Amount Paid": 36348.4,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade014f"
+  },
+  "Unit": "1C",
+  "Month": "April",
+  "Rent": 20000,
+  "Electricity": 13844.32,
+  "Water": 414,
+  "Outstanding Balance": 0,
+  "Total Amount": 34258.32,
+  "Amount Paid": 34258.32,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0150"
+  },
+  "Unit": "1C",
+  "Month": "May",
+  "Rent": 20000,
+  "Electricity": 16326.68,
+  "Water": 345,
+  "Outstanding Balance": 0,
+  "Total Amount": 36671.68,
+  "Amount Paid": 36671.68,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0151"
+  },
+  "Unit": "1C",
+  "Month": "June",
+  "Rent": 20000,
+  "Electricity": 15106.73,
+  "Water": 473,
+  "Outstanding Balance": 0,
+  "Total Amount": 35579.73,
+  "Amount Paid": 35579.73,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0152"
+  },
+  "Unit": "1D",
+  "Month": "January",
+  "Rent": 12000,
+  "Electricity": 5010.76,
+  "Water": 451,
+  "Outstanding Balance": 0,
+  "Total Amount": 17461.76,
+  "Amount Paid": 17461.76,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0153"
+  },
+  "Unit": "1D",
+  "Month": "February",
+  "Rent": 12000,
+  "Electricity": 3130.76,
+  "Water": 404,
+  "Outstanding Balance": 0,
+  "Total Amount": 15534.76,
+  "Amount Paid": 15534.76,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0154"
+  },
+  "Unit": "1D",
+  "Month": "March",
+  "Rent": 12000,
+  "Electricity": 4189.32,
+  "Water": 388,
+  "Outstanding Balance": 0,
+  "Total Amount": 16577.32,
+  "Amount Paid": 16577.32,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0155"
+  },
+  "Unit": "1D",
+  "Month": "April",
+  "Rent": 12000,
+  "Electricity": 3204.25,
+  "Water": 421,
+  "Outstanding Balance": 0,
+  "Total Amount": 15625.25,
+  "Amount Paid": 15625.25,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0156"
+  },
+  "Unit": "1D",
+  "Month": "May",
+  "Rent": 12000,
+  "Electricity": 4234.58,
+  "Water": 429,
+  "Outstanding Balance": 0,
+  "Total Amount": 16663.58,
+  "Amount Paid": 16663.58,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0157"
+  },
+  "Unit": "1D",
+  "Month": "June",
+  "Rent": 12000,
+  "Electricity": 3348.63,
+  "Water": 437,
+  "Outstanding Balance": 0,
+  "Total Amount": 15785.63,
+  "Amount Paid": 15785.63,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0158"
+  },
+  "Unit": "2A",
+  "Month": "January",
+  "Rent": 8000,
+  "Electricity": 5778.61,
+  "Water": 394,
+  "Outstanding Balance": 0,
+  "Total Amount": 14172.61,
+  "Amount Paid": 14172.61,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0159"
+  },
+  "Unit": "2A",
+  "Month": "February",
+  "Rent": 8000,
+  "Electricity": 4999.3,
+  "Water": 410,
+  "Outstanding Balance": 0,
+  "Total Amount": 13409.3,
+  "Amount Paid": 13409.3,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade015a"
+  },
+  "Unit": "2A",
+  "Month": "March",
+  "Rent": 8000,
+  "Electricity": 5601.41,
+  "Water": 481,
+  "Outstanding Balance": 0,
+  "Total Amount": 14082.41,
+  "Amount Paid": 14082.41,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade015b"
+  },
+  "Unit": "2A",
+  "Month": "April",
+  "Rent": 8000,
+  "Electricity": 4703.43,
+  "Water": 487,
+  "Outstanding Balance": 0,
+  "Total Amount": 13190.43,
+  "Amount Paid": 13190.43,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade015c"
+  },
+  "Unit": "2A",
+  "Month": "May",
+  "Rent": 8000,
+  "Electricity": 6261.02,
+  "Water": 497,
+  "Outstanding Balance": 0,
+  "Total Amount": 14758.02,
+  "Amount Paid": 14758.02,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade015d"
+  },
+  "Unit": "2A",
+  "Month": "June",
+  "Rent": 8000,
+  "Electricity": 4542.67,
+  "Water": 308,
+  "Outstanding Balance": 0,
+  "Total Amount": 12850.67,
+  "Amount Paid": 12850.67,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade015e"
+  },
+  "Unit": "2B",
+  "Month": "January",
+  "Rent": 7500,
+  "Electricity": 4147.5,
+  "Water": 478,
+  "Outstanding Balance": 5450,
+  "Total Amount": 17575.5,
+  "Amount Paid": 15375.5,
+  "Pending Balance": 2200
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade015f"
+  },
+  "Unit": "2B",
+  "Month": "February",
+  "Rent": 7500,
+  "Electricity": 6812.25,
+  "Water": 359,
+  "Outstanding Balance": 2200,
+  "Total Amount": 16871.25,
+  "Amount Paid": 16871.25,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0160"
+  },
+  "Unit": "2B",
+  "Month": "March",
+  "Rent": 7500,
+  "Electricity": 6255.75,
+  "Water": 462,
+  "Outstanding Balance": 0,
+  "Total Amount": 14217.75,
+  "Amount Paid": 14217.75,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0161"
+  },
+  "Unit": "2B",
+  "Month": "April",
+  "Rent": 7500,
+  "Electricity": 5324,
+  "Water": 403,
+  "Outstanding Balance": 0,
+  "Total Amount": 13227,
+  "Amount Paid": 13227,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0162"
+  },
+  "Unit": "2B",
+  "Month": "May",
+  "Rent": 7500,
+  "Electricity": 4443.12,
+  "Water": 311,
+  "Outstanding Balance": 0,
+  "Total Amount": 12254.12,
+  "Amount Paid": 12254.12,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0163"
+  },
+  "Unit": "2B",
+  "Month": "June",
+  "Rent": 7500,
+  "Electricity": 3738.39,
+  "Water": 450,
+  "Outstanding Balance": 0,
+  "Total Amount": 11688.39,
+  "Amount Paid": 11688.39,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0164"
+  },
+  "Unit": "2C",
+  "Month": "January",
+  "Rent": 7500,
+  "Electricity": 2839.68,
+  "Water": 467,
+  "Outstanding Balance": 0,
+  "Total Amount": 10806.68,
+  "Amount Paid": 10806.68,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0165"
+  },
+  "Unit": "2C",
+  "Month": "February",
+  "Rent": 7500,
+  "Electricity": 2991.85,
+  "Water": 443,
+  "Outstanding Balance": 0,
+  "Total Amount": 10934.85,
+  "Amount Paid": 10934.85,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0166"
+  },
+  "Unit": "2C",
+  "Month": "March",
+  "Rent": 7500,
+  "Electricity": 4187.2,
+  "Water": 460,
+  "Outstanding Balance": 0,
+  "Total Amount": 12147.2,
+  "Amount Paid": 12147.2,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0167"
+  },
+  "Unit": "2C",
+  "Month": "April",
+  "Rent": 7500,
+  "Electricity": 3500,
+  "Water": 335,
+  "Outstanding Balance": 0,
+  "Total Amount": 11335,
+  "Amount Paid": 11335,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0168"
+  },
+  "Unit": "2C",
+  "Month": "May",
+  "Rent": 7500,
+  "Electricity": 2118.92,
+  "Water": 313,
+  "Outstanding Balance": 0,
+  "Total Amount": 9931.92,
+  "Amount Paid": 9931.92,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0169"
+  },
+  "Unit": "2C",
+  "Month": "June",
+  "Rent": 7500,
+  "Electricity": 5767.02,
+  "Water": 382,
+  "Outstanding Balance": 0,
+  "Total Amount": 13649.02,
+  "Amount Paid": 13649.02,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade016a"
+  },
+  "Unit": "2D",
+  "Month": "January",
+  "Rent": 7500,
+  "Electricity": 2495.92,
+  "Water": 330,
+  "Outstanding Balance": 0,
+  "Total Amount": 10325.92,
+  "Amount Paid": 10325.92,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade016b"
+  },
+  "Unit": "2D",
+  "Month": "February",
+  "Rent": 7500,
+  "Electricity": 4130.42,
+  "Water": 388,
+  "Outstanding Balance": 0,
+  "Total Amount": 12018.42,
+  "Amount Paid": 12018.42,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade016c"
+  },
+  "Unit": "2D",
+  "Month": "March",
+  "Rent": 7500,
+  "Electricity": 4948.36,
+  "Water": 382,
+  "Outstanding Balance": 0,
+  "Total Amount": 12830.36,
+  "Amount Paid": 12830.36,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade016d"
+  },
+  "Unit": "2D",
+  "Month": "April",
+  "Rent": 7500,
+  "Electricity": 3648.16,
+  "Water": 455,
+  "Outstanding Balance": 0,
+  "Total Amount": 11603.16,
+  "Amount Paid": 11603.16,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade016e"
+  },
+  "Unit": "2D",
+  "Month": "May",
+  "Rent": 7500,
+  "Electricity": 3552.95,
+  "Water": 318,
+  "Outstanding Balance": 0,
+  "Total Amount": 11370.95,
+  "Amount Paid": 11370.95,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade016f"
+  },
+  "Unit": "2D",
+  "Month": "June",
+  "Rent": 7500,
+  "Electricity": 2345.61,
+  "Water": 440,
+  "Outstanding Balance": 0,
+  "Total Amount": 10285.61,
+  "Amount Paid": 10285.61,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0170"
+  },
+  "Unit": "2E",
+  "Month": null,
+  "Rent": null,
+  "Electricity": null,
+  "Water": null,
+  "Outstanding Balance": null,
+  "Total Amount": null,
+  "Amount Paid": null,
+  "Pending Balance": null
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0171"
+  },
+  "Unit": "2F",
+  "Month": "January",
+  "Rent": 9000,
+  "Electricity": 5062.32,
+  "Water": 407,
+  "Outstanding Balance": 0,
+  "Total Amount": 14469.32,
+  "Amount Paid": 14469.32,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0172"
+  },
+  "Unit": "2F",
+  "Month": "February",
+  "Rent": 9000,
+  "Electricity": 6285.78,
+  "Water": 453,
+  "Outstanding Balance": 0,
+  "Total Amount": 15738.78,
+  "Amount Paid": 15738.78,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0173"
+  },
+  "Unit": "2F",
+  "Month": "March",
+  "Rent": 9000,
+  "Electricity": 5980,
+  "Water": 332,
+  "Outstanding Balance": 0,
+  "Total Amount": 15312,
+  "Amount Paid": 15312,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0174"
+  },
+  "Unit": "2F",
+  "Month": "April",
+  "Rent": 9000,
+  "Electricity": 5536.39,
+  "Water": 316,
+  "Outstanding Balance": 0,
+  "Total Amount": 14852.39,
+  "Amount Paid": 14852.39,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0175"
+  },
+  "Unit": "2F",
+  "Month": "May",
+  "Rent": 9000,
+  "Electricity": 6514.24,
+  "Water": 326,
+  "Outstanding Balance": 0,
+  "Total Amount": 15840.24,
+  "Amount Paid": 15840.24,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0176"
+  },
+  "Unit": "2F",
+  "Month": "June",
+  "Rent": 9000,
+  "Electricity": 6076.21,
+  "Water": 399,
+  "Outstanding Balance": 0,
+  "Total Amount": 15475.21,
+  "Amount Paid": 15475.21,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0177"
+  },
+  "Unit": "2G",
+  "Month": "January",
+  "Rent": 8000,
+  "Electricity": 6273.73,
+  "Water": 478,
+  "Outstanding Balance": 0,
+  "Total Amount": 14751.73,
+  "Amount Paid": 14751.73,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0178"
+  },
+  "Unit": "2G",
+  "Month": "February",
+  "Rent": 8000,
+  "Electricity": 4957.18,
+  "Water": 381,
+  "Outstanding Balance": 0,
+  "Total Amount": 13338.18,
+  "Amount Paid": 13338.18,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0179"
+  },
+  "Unit": "2G",
+  "Month": "March",
+  "Rent": 8000,
+  "Electricity": 1671.1,
+  "Water": 475,
+  "Outstanding Balance": 0,
+  "Total Amount": 10146.1,
+  "Amount Paid": 10146.1,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade017a"
+  },
+  "Unit": "2G",
+  "Month": "April",
+  "Rent": 8000,
+  "Electricity": 2557.92,
+  "Water": 432,
+  "Outstanding Balance": 0,
+  "Total Amount": 10989.92,
+  "Amount Paid": 10989.92,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade017b"
+  },
+  "Unit": "2G",
+  "Month": "May",
+  "Rent": 8000,
+  "Electricity": 4296.05,
+  "Water": 498,
+  "Outstanding Balance": 0,
+  "Total Amount": 12794.05,
+  "Amount Paid": 12794.05,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade017c"
+  },
+  "Unit": "2G",
+  "Month": "June",
+  "Rent": 8000,
+  "Electricity": 5755,
+  "Water": 444,
+  "Outstanding Balance": 0,
+  "Total Amount": 14199,
+  "Amount Paid": 14199,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade017d"
+  },
+  "Unit": "2H",
+  "Month": "January",
+  "Rent": 7500,
+  "Electricity": 5555.4,
+  "Water": 315,
+  "Outstanding Balance": 0,
+  "Total Amount": 13370.4,
+  "Amount Paid": 13370.4,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade017e"
+  },
+  "Unit": "2H",
+  "Month": "February",
+  "Rent": 7500,
+  "Electricity": 4821.37,
+  "Water": 431,
+  "Outstanding Balance": 0,
+  "Total Amount": 12752.37,
+  "Amount Paid": 12752.37,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade017f"
+  },
+  "Unit": "2H",
+  "Month": "March",
+  "Rent": 7500,
+  "Electricity": 4957.82,
+  "Water": 304,
+  "Outstanding Balance": 0,
+  "Total Amount": 12761.82,
+  "Amount Paid": 12761.82,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0180"
+  },
+  "Unit": "2H",
+  "Month": "April",
+  "Rent": 7500,
+  "Electricity": 2820.36,
+  "Water": 356,
+  "Outstanding Balance": 0,
+  "Total Amount": 10676.36,
+  "Amount Paid": 10676.36,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0181"
+  },
+  "Unit": "2H",
+  "Month": "May",
+  "Rent": 7500,
+  "Electricity": 4261.12,
+  "Water": 332,
+  "Outstanding Balance": 0,
+  "Total Amount": 12093.12,
+  "Amount Paid": 12093.12,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0182"
+  },
+  "Unit": "2H",
+  "Month": "June",
+  "Rent": 7500,
+  "Electricity": 2575.49,
+  "Water": 379,
+  "Outstanding Balance": 0,
+  "Total Amount": 10454.49,
+  "Amount Paid": 10454.49,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0183"
+  },
+  "Unit": "2I",
+  "Month": "January",
+  "Rent": 8500,
+  "Electricity": 5086.16,
+  "Water": 419,
+  "Outstanding Balance": 0,
+  "Total Amount": 14005.16,
+  "Amount Paid": 14005.16,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0184"
+  },
+  "Unit": "2I",
+  "Month": "February",
+  "Rent": 8500,
+  "Electricity": 1671.78,
+  "Water": 303,
+  "Outstanding Balance": 0,
+  "Total Amount": 10474.78,
+  "Amount Paid": 10474.78,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0185"
+  },
+  "Unit": "2I",
+  "Month": "March",
+  "Rent": 8500,
+  "Electricity": 2217.47,
+  "Water": 448,
+  "Outstanding Balance": 0,
+  "Total Amount": 11165.47,
+  "Amount Paid": 11165.47,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0186"
+  },
+  "Unit": "2I",
+  "Month": "April",
+  "Rent": 8500,
+  "Electricity": 1846,
+  "Water": 351,
+  "Outstanding Balance": 0,
+  "Total Amount": 10697,
+  "Amount Paid": 10697,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0187"
+  },
+  "Unit": "2I",
+  "Month": "May",
+  "Rent": 8500,
+  "Electricity": 6898.2,
+  "Water": 320,
+  "Outstanding Balance": 0,
+  "Total Amount": 15718.2,
+  "Amount Paid": 15718.2,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0188"
+  },
+  "Unit": "2I",
+  "Month": "June",
+  "Rent": 8500,
+  "Electricity": 2329.31,
+  "Water": 451,
+  "Outstanding Balance": 0,
+  "Total Amount": 11280.31,
+  "Amount Paid": 11280.31,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0189"
+  },
+  "Unit": "2J",
+  "Month": "January",
+  "Rent": 7500,
+  "Electricity": 2932.78,
+  "Water": 413,
+  "Outstanding Balance": 0,
+  "Total Amount": 10845.78,
+  "Amount Paid": 10845.78,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade018a"
+  },
+  "Unit": "2J",
+  "Month": "February",
+  "Rent": 7500,
+  "Electricity": 4299.54,
+  "Water": 357,
+  "Outstanding Balance": 0,
+  "Total Amount": 12156.54,
+  "Amount Paid": 12156.54,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade018b"
+  },
+  "Unit": "2J",
+  "Month": "March",
+  "Rent": 7500,
+  "Electricity": 2028.78,
+  "Water": 426,
+  "Outstanding Balance": 0,
+  "Total Amount": 9954.78,
+  "Amount Paid": 9954.78,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade018c"
+  },
+  "Unit": "2J",
+  "Month": "April",
+  "Rent": 7500,
+  "Electricity": 2486.4,
+  "Water": 388,
+  "Outstanding Balance": 0,
+  "Total Amount": 10374.4,
+  "Amount Paid": 10374.4,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade018d"
+  },
+  "Unit": "2J",
+  "Month": "May",
+  "Rent": 7500,
+  "Electricity": 1631.6,
+  "Water": 436,
+  "Outstanding Balance": 0,
+  "Total Amount": 9567.6,
+  "Amount Paid": 9567.6,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade018e"
+  },
+  "Unit": "2J",
+  "Month": "June",
+  "Rent": 7500,
+  "Electricity": 4365.16,
+  "Water": 399,
+  "Outstanding Balance": 0,
+  "Total Amount": 12264.16,
+  "Amount Paid": 12264.16,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade018f"
+  },
+  "Unit": "2K",
+  "Month": "January",
+  "Rent": 8000,
+  "Electricity": 5809.31,
+  "Water": 318,
+  "Outstanding Balance": 0,
+  "Total Amount": 14127.31,
+  "Amount Paid": 14127.31,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0190"
+  },
+  "Unit": "2K",
+  "Month": "February",
+  "Rent": 8000,
+  "Electricity": 5017.73,
+  "Water": 300,
+  "Outstanding Balance": 0,
+  "Total Amount": 13317.73,
+  "Amount Paid": 13317.73,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0191"
+  },
+  "Unit": "2K",
+  "Month": "March",
+  "Rent": 8000,
+  "Electricity": 5474.6,
+  "Water": 334,
+  "Outstanding Balance": 0,
+  "Total Amount": 13808.6,
+  "Amount Paid": 13808.6,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0192"
+  },
+  "Unit": "2K",
+  "Month": "April",
+  "Rent": 8000,
+  "Electricity": 4806.8,
+  "Water": 322,
+  "Outstanding Balance": 0,
+  "Total Amount": 13128.8,
+  "Amount Paid": 13128.8,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0193"
+  },
+  "Unit": "2K",
+  "Month": "May",
+  "Rent": 8000,
+  "Electricity": 5946.45,
+  "Water": 500,
+  "Outstanding Balance": 0,
+  "Total Amount": 14446.45,
+  "Amount Paid": 14446.45,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0194"
+  },
+  "Unit": "2K",
+  "Month": "June",
+  "Rent": 8000,
+  "Electricity": 5626.12,
+  "Water": 320,
+  "Outstanding Balance": 0,
+  "Total Amount": 13946.12,
+  "Amount Paid": 13946.12,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0195"
+  },
+  "Unit": "2L",
+  "Month": "January",
+  "Rent": 8000,
+  "Electricity": 4745.47,
+  "Water": 438,
+  "Outstanding Balance": 0,
+  "Total Amount": 13183.47,
+  "Amount Paid": 13183.47,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0196"
+  },
+  "Unit": "2L",
+  "Month": "February",
+  "Rent": 8000,
+  "Electricity": 3504.16,
+  "Water": 469,
+  "Outstanding Balance": 0,
+  "Total Amount": 11973.16,
+  "Amount Paid": 11973.16,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0197"
+  },
+  "Unit": "2L",
+  "Month": "March",
+  "Rent": 8000,
+  "Electricity": 2608.6,
+  "Water": 437,
+  "Outstanding Balance": 0,
+  "Total Amount": 11045.6,
+  "Amount Paid": 11045.6,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0198"
+  },
+  "Unit": "2L",
+  "Month": "April",
+  "Rent": 8000,
+  "Electricity": 3469.78,
+  "Water": 309,
+  "Outstanding Balance": 0,
+  "Total Amount": 11778.78,
+  "Amount Paid": 11778.78,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0199"
+  },
+  "Unit": "2L",
+  "Month": "May",
+  "Rent": 8000,
+  "Electricity": 3134.42,
+  "Water": 444,
+  "Outstanding Balance": 0,
+  "Total Amount": 11578.42,
+  "Amount Paid": 11578.42,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade019a"
+  },
+  "Unit": "2L",
+  "Month": "June",
+  "Rent": 8000,
+  "Electricity": 2675.29,
+  "Water": 303,
+  "Outstanding Balance": 0,
+  "Total Amount": 10978.29,
+  "Amount Paid": 10978.29,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade019b"
+  },
+  "Unit": "3A",
+  "Month": "January",
+  "Rent": 8000,
+  "Electricity": 4628.16,
+  "Water": 439,
+  "Outstanding Balance": 0,
+  "Total Amount": 13067.16,
+  "Amount Paid": 13067.16,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade019c"
+  },
+  "Unit": "3A",
+  "Month": "February",
+  "Rent": 8000,
+  "Electricity": 5940,
+  "Water": 326,
+  "Outstanding Balance": 0,
+  "Total Amount": 14266,
+  "Amount Paid": 14266,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade019d"
+  },
+  "Unit": "3A",
+  "Month": "March",
+  "Rent": 8000,
+  "Electricity": 5899.31,
+  "Water": 480,
+  "Outstanding Balance": 0,
+  "Total Amount": 14379.31,
+  "Amount Paid": 14379.31,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade019e"
+  },
+  "Unit": "3A",
+  "Month": "April",
+  "Rent": 8000,
+  "Electricity": 3417.62,
+  "Water": 301,
+  "Outstanding Balance": 0,
+  "Total Amount": 11718.62,
+  "Amount Paid": 11718.62,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade019f"
+  },
+  "Unit": "3A",
+  "Month": "May",
+  "Rent": 8000,
+  "Electricity": 4722.8,
+  "Water": 315,
+  "Outstanding Balance": 0,
+  "Total Amount": 13037.8,
+  "Amount Paid": 13037.8,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01a0"
+  },
+  "Unit": "3A",
+  "Month": "June",
+  "Rent": 8000,
+  "Electricity": 6411.2,
+  "Water": 411,
+  "Outstanding Balance": 0,
+  "Total Amount": 14822.2,
+  "Amount Paid": 14822.2,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01a1"
+  },
+  "Unit": "3B",
+  "Month": "January",
+  "Rent": 8000,
+  "Electricity": 5161.6,
+  "Water": 347,
+  "Outstanding Balance": 0,
+  "Total Amount": 13508.6,
+  "Amount Paid": 13508.6,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01a2"
+  },
+  "Unit": "3B",
+  "Month": "February",
+  "Rent": 8000,
+  "Electricity": 5605.83,
+  "Water": 456,
+  "Outstanding Balance": 0,
+  "Total Amount": 14061.83,
+  "Amount Paid": 14061.83,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01a3"
+  },
+  "Unit": "3B",
+  "Month": "March",
+  "Rent": 8000,
+  "Electricity": 4269.96,
+  "Water": 366,
+  "Outstanding Balance": 0,
+  "Total Amount": 12635.96,
+  "Amount Paid": 12635.96,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01a4"
+  },
+  "Unit": "3B",
+  "Month": "April",
+  "Rent": 8000,
+  "Electricity": 8028.62,
+  "Water": 406,
+  "Outstanding Balance": 0,
+  "Total Amount": 16434.62,
+  "Amount Paid": 16434.62,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01a5"
+  },
+  "Unit": "3B",
+  "Month": "May",
+  "Rent": 8000,
+  "Electricity": 6913.7,
+  "Water": 411,
+  "Outstanding Balance": 0,
+  "Total Amount": 15324.7,
+  "Amount Paid": 15324.7,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01a6"
+  },
+  "Unit": "3B",
+  "Month": "June",
+  "Rent": 8000,
+  "Electricity": 7415,
+  "Water": 324,
+  "Outstanding Balance": 0,
+  "Total Amount": 15739,
+  "Amount Paid": 15739,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01a7"
+  },
+  "Unit": "3C",
+  "Month": "January",
+  "Rent": 7500,
+  "Electricity": 2644.8,
+  "Water": 498,
+  "Outstanding Balance": 0,
+  "Total Amount": 10642.8,
+  "Amount Paid": 10642.8,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01a8"
+  },
+  "Unit": "3C",
+  "Month": "February",
+  "Rent": 7500,
+  "Electricity": 1224.97,
+  "Water": 374,
+  "Outstanding Balance": 0,
+  "Total Amount": 9098.97,
+  "Amount Paid": 9098.97,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01a9"
+  },
+  "Unit": "3C",
+  "Month": "March",
+  "Rent": 7500,
+  "Electricity": 6202.32,
+  "Water": 333,
+  "Outstanding Balance": 0,
+  "Total Amount": 14035.32,
+  "Amount Paid": 14035.32,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01aa"
+  },
+  "Unit": "3C",
+  "Month": "April",
+  "Rent": 7500,
+  "Electricity": 1870.64,
+  "Water": 305,
+  "Outstanding Balance": 0,
+  "Total Amount": 9675.64,
+  "Amount Paid": 9675.64,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01ab"
+  },
+  "Unit": "3C",
+  "Month": "May",
+  "Rent": 7500,
+  "Electricity": 4204.2,
+  "Water": 347,
+  "Outstanding Balance": 0,
+  "Total Amount": 12051.2,
+  "Amount Paid": 12051.2,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01ac"
+  },
+  "Unit": "3C",
+  "Month": "June",
+  "Rent": 7500,
+  "Electricity": 3792,
+  "Water": 497,
+  "Outstanding Balance": 0,
+  "Total Amount": 11789,
+  "Amount Paid": 11789,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01ad"
+  },
+  "Unit": "3D",
+  "Month": "January",
+  "Rent": 8500,
+  "Electricity": 4460.8,
+  "Water": 464,
+  "Outstanding Balance": 0,
+  "Total Amount": 13424.8,
+  "Amount Paid": 13424.8,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01ae"
+  },
+  "Unit": "3D",
+  "Month": "February",
+  "Rent": 8500,
+  "Electricity": 4047.68,
+  "Water": 411,
+  "Outstanding Balance": 0,
+  "Total Amount": 12958.68,
+  "Amount Paid": 12958.68,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01af"
+  },
+  "Unit": "3D",
+  "Month": "March",
+  "Rent": 8500,
+  "Electricity": 5044.85,
+  "Water": 468,
+  "Outstanding Balance": 0,
+  "Total Amount": 14012.85,
+  "Amount Paid": 14012.85,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01b0"
+  },
+  "Unit": "3D",
+  "Month": "April",
+  "Rent": 8500,
+  "Electricity": 5732.01,
+  "Water": 439,
+  "Outstanding Balance": 0,
+  "Total Amount": 14671.01,
+  "Amount Paid": 14671.01,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01b1"
+  },
+  "Unit": "3D",
+  "Month": "May",
+  "Rent": 8500,
+  "Electricity": 5339.93,
+  "Water": 338,
+  "Outstanding Balance": 0,
+  "Total Amount": 14177.93,
+  "Amount Paid": 14177.93,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01b2"
+  },
+  "Unit": "3D",
+  "Month": "June",
+  "Rent": 8500,
+  "Electricity": 4659.81,
+  "Water": 377,
+  "Outstanding Balance": 0,
+  "Total Amount": 13536.81,
+  "Amount Paid": 13536.81,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01b3"
+  },
+  "Unit": "3E",
+  "Month": "January",
+  "Rent": 8000,
+  "Electricity": 5971.2,
+  "Water": 416,
+  "Outstanding Balance": 12592,
+  "Total Amount": 26979.2,
+  "Amount Paid": 17739.2,
+  "Pending Balance": 9240
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01b4"
+  },
+  "Unit": "3E",
+  "Month": "February",
+  "Rent": 8000,
+  "Electricity": 6287,
+  "Water": 362,
+  "Outstanding Balance": 9240,
+  "Total Amount": 23889,
+  "Amount Paid": 23889,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01b5"
+  },
+  "Unit": "3E",
+  "Month": "March",
+  "Rent": 8000,
+  "Electricity": 5953.5,
+  "Water": 413,
+  "Outstanding Balance": 0,
+  "Total Amount": 14366.5,
+  "Amount Paid": 14366.5,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01b6"
+  },
+  "Unit": "3E",
+  "Month": "April",
+  "Rent": 8000,
+  "Electricity": 5715.3,
+  "Water": 363,
+  "Outstanding Balance": 0,
+  "Total Amount": 14078.3,
+  "Amount Paid": 865.3,
+  "Pending Balance": 13213
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01b7"
+  },
+  "Unit": "3E",
+  "Month": "May",
+  "Rent": 8000,
+  "Electricity": 5585.89,
+  "Water": 485,
+  "Outstanding Balance": 13213,
+  "Total Amount": 27283.89,
+  "Amount Paid": 19283.89,
+  "Pending Balance": 8000
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01b8"
+  },
+  "Unit": "3E",
+  "Month": "June",
+  "Rent": 8000,
+  "Electricity": 7060.04,
+  "Water": 373,
+  "Outstanding Balance": 8000,
+  "Total Amount": 23433.04,
+  "Amount Paid": 23433.04,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01b9"
+  },
+  "Unit": "3F",
+  "Month": "January",
+  "Rent": 8500,
+  "Electricity": 8708.8,
+  "Water": 398,
+  "Outstanding Balance": 0,
+  "Total Amount": 17606.8,
+  "Amount Paid": 17606.8,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01ba"
+  },
+  "Unit": "3F",
+  "Month": "February",
+  "Rent": 8500,
+  "Electricity": 9943.58,
+  "Water": 436,
+  "Outstanding Balance": 0,
+  "Total Amount": 18879.58,
+  "Amount Paid": 18879.58,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01bb"
+  },
+  "Unit": "3F",
+  "Month": "March",
+  "Rent": 8500,
+  "Electricity": 8230.33,
+  "Water": 417,
+  "Outstanding Balance": 0,
+  "Total Amount": 17147.33,
+  "Amount Paid": 17147.33,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01bc"
+  },
+  "Unit": "3F",
+  "Month": "April",
+  "Rent": 8500,
+  "Electricity": 8560.13,
+  "Water": 305,
+  "Outstanding Balance": 0,
+  "Total Amount": 17365.13,
+  "Amount Paid": 17365.13,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01bd"
+  },
+  "Unit": "3F",
+  "Month": "May",
+  "Rent": 8500,
+  "Electricity": 8016.97,
+  "Water": 386,
+  "Outstanding Balance": 0,
+  "Total Amount": 16902.97,
+  "Amount Paid": 16902.97,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01be"
+  },
+  "Unit": "3F",
+  "Month": "June",
+  "Rent": 8500,
+  "Electricity": 8832,
+  "Water": 454,
+  "Outstanding Balance": 0,
+  "Total Amount": 17786,
+  "Amount Paid": 17786,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01bf"
+  },
+  "Unit": "3G",
+  "Month": "January",
+  "Rent": 8000,
+  "Electricity": 6137.6,
+  "Water": 356,
+  "Outstanding Balance": 0,
+  "Total Amount": 14493.6,
+  "Amount Paid": 14493.6,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01c0"
+  },
+  "Unit": "3G",
+  "Month": "February",
+  "Rent": 8000,
+  "Electricity": 5648.74,
+  "Water": 377,
+  "Outstanding Balance": 0,
+  "Total Amount": 14025.74,
+  "Amount Paid": 14025.74,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01c1"
+  },
+  "Unit": "3G",
+  "Month": "March",
+  "Rent": 8000,
+  "Electricity": 5749.13,
+  "Water": 328,
+  "Outstanding Balance": 0,
+  "Total Amount": 14077.13,
+  "Amount Paid": 14077.13,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01c2"
+  },
+  "Unit": "3G",
+  "Month": "April",
+  "Rent": 8000,
+  "Electricity": 4358.65,
+  "Water": 383,
+  "Outstanding Balance": 0,
+  "Total Amount": 12741.65,
+  "Amount Paid": 12741.65,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01c3"
+  },
+  "Unit": "3G",
+  "Month": "May",
+  "Rent": 8000,
+  "Electricity": 4547,
+  "Water": 486,
+  "Outstanding Balance": 0,
+  "Total Amount": 13033,
+  "Amount Paid": 13033,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01c4"
+  },
+  "Unit": "3G",
+  "Month": "June",
+  "Rent": 8000,
+  "Electricity": 5003.57,
+  "Water": 500,
+  "Outstanding Balance": 0,
+  "Total Amount": 13503.57,
+  "Amount Paid": 13503.57,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01c5"
+  },
+  "Unit": "3H",
+  "Month": "January",
+  "Rent": 8000,
+  "Electricity": 5099.2,
+  "Water": 443,
+  "Outstanding Balance": 0,
+  "Total Amount": 13542.2,
+  "Amount Paid": 9286.2,
+  "Pending Balance": 4256
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01c6"
+  },
+  "Unit": "3H",
+  "Month": "February",
+  "Rent": 8000,
+  "Electricity": 5881.6,
+  "Water": 445,
+  "Outstanding Balance": 4256,
+  "Total Amount": 18582.6,
+  "Amount Paid": 16462.6,
+  "Pending Balance": 2120
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01c7"
+  },
+  "Unit": "3H",
+  "Month": "March",
+  "Rent": 8000,
+  "Electricity": 4328.65,
+  "Water": 481,
+  "Outstanding Balance": 2120,
+  "Total Amount": 14929.65,
+  "Amount Paid": 14929.65,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01c8"
+  },
+  "Unit": "3H",
+  "Month": "April",
+  "Rent": 8000,
+  "Electricity": 5287.38,
+  "Water": 476,
+  "Outstanding Balance": 0,
+  "Total Amount": 13763.38,
+  "Amount Paid": 13763.38,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01c9"
+  },
+  "Unit": "3H",
+  "Month": "May",
+  "Rent": 8000,
+  "Electricity": 5549.98,
+  "Water": 437,
+  "Outstanding Balance": 0,
+  "Total Amount": 13986.98,
+  "Amount Paid": 13986.98,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01ca"
+  },
+  "Unit": "3H",
+  "Month": "June",
+  "Rent": 8000,
+  "Electricity": 5891.03,
+  "Water": 358,
+  "Outstanding Balance": 0,
+  "Total Amount": 14249.03,
+  "Amount Paid": 14249.03,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01cb"
+  },
+  "Unit": "3I",
+  "Month": "January",
+  "Rent": 10500,
+  "Electricity": 2183.5,
+  "Water": 445,
+  "Outstanding Balance": 0,
+  "Total Amount": 13128.5,
+  "Amount Paid": 13128.5,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01cc"
+  },
+  "Unit": "3I",
+  "Month": "February",
+  "Rent": 10500,
+  "Electricity": 3162.76,
+  "Water": 357,
+  "Outstanding Balance": 0,
+  "Total Amount": 14019.76,
+  "Amount Paid": 14019.76,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01cd"
+  },
+  "Unit": "3I",
+  "Month": "March",
+  "Rent": 10500,
+  "Electricity": 3484,
+  "Water": 466,
+  "Outstanding Balance": 0,
+  "Total Amount": 14450,
+  "Amount Paid": 14450,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01ce"
+  },
+  "Unit": "3I",
+  "Month": "April",
+  "Rent": 10500,
+  "Electricity": 4809.68,
+  "Water": 354,
+  "Outstanding Balance": 0,
+  "Total Amount": 15663.68,
+  "Amount Paid": 15663.68,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01cf"
+  },
+  "Unit": "3I",
+  "Month": "May",
+  "Rent": 10500,
+  "Electricity": 2439.4,
+  "Water": 470,
+  "Outstanding Balance": 0,
+  "Total Amount": 13409.4,
+  "Amount Paid": 13409.4,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01d0"
+  },
+  "Unit": "3I",
+  "Month": "June",
+  "Rent": 10500,
+  "Electricity": 2707.36,
+  "Water": 493,
+  "Outstanding Balance": 0,
+  "Total Amount": 13700.36,
+  "Amount Paid": 13700.36,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01d1"
+  },
+  "Unit": "3J",
+  "Month": "January",
+  "Rent": 7500,
+  "Electricity": 5834.84,
+  "Water": 370,
+  "Outstanding Balance": 0,
+  "Total Amount": 13704.84,
+  "Amount Paid": 13704.84,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01d2"
+  },
+  "Unit": "3J",
+  "Month": "February",
+  "Rent": 7500,
+  "Electricity": 7159.09,
+  "Water": 497,
+  "Outstanding Balance": 0,
+  "Total Amount": 15156.09,
+  "Amount Paid": 15156.09,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01d3"
+  },
+  "Unit": "3J",
+  "Month": "March",
+  "Rent": 7500,
+  "Electricity": 2676.15,
+  "Water": 500,
+  "Outstanding Balance": 0,
+  "Total Amount": 10676.15,
+  "Amount Paid": 10676.15,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01d4"
+  },
+  "Unit": "3J",
+  "Month": "April",
+  "Rent": 7500,
+  "Electricity": 5007,
+  "Water": 520,
+  "Outstanding Balance": 0,
+  "Total Amount": 13027,
+  "Amount Paid": 13027,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01d5"
+  },
+  "Unit": "3J",
+  "Month": "May",
+  "Rent": 7500,
+  "Electricity": 6894.19,
+  "Water": 344,
+  "Outstanding Balance": 0,
+  "Total Amount": 14738.19,
+  "Amount Paid": 14738.19,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01d6"
+  },
+  "Unit": "3J",
+  "Month": "June",
+  "Rent": 7500,
+  "Electricity": 3294.72,
+  "Water": 308,
+  "Outstanding Balance": 0,
+  "Total Amount": 11102.72,
+  "Amount Paid": 11102.72,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01d7"
+  },
+  "Unit": "3K",
+  "Month": "January",
+  "Rent": 7000,
+  "Electricity": 2334.01,
+  "Water": 430,
+  "Outstanding Balance": 0,
+  "Total Amount": 9764.01,
+  "Amount Paid": 9764.01,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01d8"
+  },
+  "Unit": "3K",
+  "Month": "February",
+  "Rent": 7000,
+  "Electricity": 7020.3,
+  "Water": 472,
+  "Outstanding Balance": 0,
+  "Total Amount": 14492.3,
+  "Amount Paid": 14492.3,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01d9"
+  },
+  "Unit": "3K",
+  "Month": "March",
+  "Rent": 7000,
+  "Electricity": 8175.79,
+  "Water": 325,
+  "Outstanding Balance": 0,
+  "Total Amount": 15500.79,
+  "Amount Paid": 15500.79,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01da"
+  },
+  "Unit": "3K",
+  "Month": "April",
+  "Rent": 7000,
+  "Electricity": 4688,
+  "Water": 495,
+  "Outstanding Balance": 0,
+  "Total Amount": 12183,
+  "Amount Paid": 12183,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01db"
+  },
+  "Unit": "3K",
+  "Month": "May",
+  "Rent": 7000,
+  "Electricity": 6809.84,
+  "Water": 316,
+  "Outstanding Balance": 0,
+  "Total Amount": 14125.84,
+  "Amount Paid": 14125.84,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01dc"
+  },
+  "Unit": "3K",
+  "Month": "June",
+  "Rent": 7000,
+  "Electricity": 3434.82,
+  "Water": 485,
+  "Outstanding Balance": 0,
+  "Total Amount": 10919.82,
+  "Amount Paid": 10919.82,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01dd"
+  },
+  "Unit": "3L",
+  "Month": "January",
+  "Rent": 8500,
+  "Electricity": 5162.87,
+  "Water": 391,
+  "Outstanding Balance": 0,
+  "Total Amount": 14053.87,
+  "Amount Paid": 14053.87,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01de"
+  },
+  "Unit": "3L",
+  "Month": "February",
+  "Rent": 8500,
+  "Electricity": 1343.4,
+  "Water": 403,
+  "Outstanding Balance": 0,
+  "Total Amount": 10246.4,
+  "Amount Paid": 10246.4,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01df"
+  },
+  "Unit": "3L",
+  "Month": "March",
+  "Rent": 8500,
+  "Electricity": 3040.5,
+  "Water": 337,
+  "Outstanding Balance": 0,
+  "Total Amount": 11877.5,
+  "Amount Paid": 11877.5,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01e0"
+  },
+  "Unit": "3L",
+  "Month": "April",
+  "Rent": 8500,
+  "Electricity": 1505,
+  "Water": 460,
+  "Outstanding Balance": 0,
+  "Total Amount": 10465,
+  "Amount Paid": 10465,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01e1"
+  },
+  "Unit": "3L",
+  "Month": "May",
+  "Rent": 8500,
+  "Electricity": 8103.57,
+  "Water": 366,
+  "Outstanding Balance": 0,
+  "Total Amount": 16969.57,
+  "Amount Paid": 16969.57,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01e2"
+  },
+  "Unit": "3L",
+  "Month": "June",
+  "Rent": 8500,
+  "Electricity": 6206,
+  "Water": 324,
+  "Outstanding Balance": 0,
+  "Total Amount": 15030,
+  "Amount Paid": 15030,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01e3"
+  },
+  "Unit": "4A",
+  "Month": "January",
+  "Rent": 8000,
+  "Electricity": 3456.87,
+  "Water": 456,
+  "Outstanding Balance": 2734,
+  "Total Amount": 14646.87,
+  "Amount Paid": 14646.87,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01e4"
+  },
+  "Unit": "4A",
+  "Month": "February",
+  "Rent": 8000,
+  "Electricity": 7846.05,
+  "Water": 307,
+  "Outstanding Balance": 0,
+  "Total Amount": 16153.05,
+  "Amount Paid": 16153.05,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01e5"
+  },
+  "Unit": "4A",
+  "Month": "March",
+  "Rent": 8000,
+  "Electricity": 6934.54,
+  "Water": 410,
+  "Outstanding Balance": 0,
+  "Total Amount": 15344.54,
+  "Amount Paid": 15344.54,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01e6"
+  },
+  "Unit": "4A",
+  "Month": "April",
+  "Rent": 8000,
+  "Electricity": 2387.23,
+  "Water": 443,
+  "Outstanding Balance": 0,
+  "Total Amount": 10830.23,
+  "Amount Paid": 10830.23,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01e7"
+  },
+  "Unit": "4A",
+  "Month": "May",
+  "Rent": 8000,
+  "Electricity": 4360.94,
+  "Water": 308,
+  "Outstanding Balance": 0,
+  "Total Amount": 12668.94,
+  "Amount Paid": 5870.94,
+  "Pending Balance": 6798
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01e8"
+  },
+  "Unit": "4A",
+  "Month": "June",
+  "Rent": 8000,
+  "Electricity": 5806.24,
+  "Water": 426,
+  "Outstanding Balance": 6798,
+  "Total Amount": 21030.24,
+  "Amount Paid": 21030.24,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01e9"
+  },
+  "Unit": "4B",
+  "Month": "January",
+  "Rent": 8000,
+  "Electricity": 4477.32,
+  "Water": 340,
+  "Outstanding Balance": 0,
+  "Total Amount": 12817.32,
+  "Amount Paid": 12817.32,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01ea"
+  },
+  "Unit": "4B",
+  "Month": "February",
+  "Rent": 8000,
+  "Electricity": 7910,
+  "Water": 510,
+  "Outstanding Balance": 0,
+  "Total Amount": 16420,
+  "Amount Paid": 16420,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01eb"
+  },
+  "Unit": "4B",
+  "Month": "March",
+  "Rent": 8000,
+  "Electricity": 8163.95,
+  "Water": 366,
+  "Outstanding Balance": 0,
+  "Total Amount": 16529.95,
+  "Amount Paid": 16529.95,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01ec"
+  },
+  "Unit": "4B",
+  "Month": "April",
+  "Rent": 8000,
+  "Electricity": 6870.8,
+  "Water": 445,
+  "Outstanding Balance": 0,
+  "Total Amount": 15315.8,
+  "Amount Paid": 15315.8,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01ed"
+  },
+  "Unit": "4B",
+  "Month": "May",
+  "Rent": 8000,
+  "Electricity": 1408.64,
+  "Water": 376,
+  "Outstanding Balance": 0,
+  "Total Amount": 9784.64,
+  "Amount Paid": 9784.64,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01ee"
+  },
+  "Unit": "4B",
+  "Month": "June",
+  "Rent": 8000,
+  "Electricity": 6243,
+  "Water": 454,
+  "Outstanding Balance": 0,
+  "Total Amount": 14697,
+  "Amount Paid": 14697,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01ef"
+  },
+  "Unit": "4C",
+  "Month": "January",
+  "Rent": 10000,
+  "Electricity": 6553.58,
+  "Water": 457,
+  "Outstanding Balance": 0,
+  "Total Amount": 17010.58,
+  "Amount Paid": 17010.58,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01f0"
+  },
+  "Unit": "4C",
+  "Month": "February",
+  "Rent": 10000,
+  "Electricity": 5067,
+  "Water": 321,
+  "Outstanding Balance": 0,
+  "Total Amount": 15388,
+  "Amount Paid": 15388,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01f1"
+  },
+  "Unit": "4C",
+  "Month": "March",
+  "Rent": 10000,
+  "Electricity": 6046.05,
+  "Water": 497,
+  "Outstanding Balance": 0,
+  "Total Amount": 16543.05,
+  "Amount Paid": 16543.05,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01f2"
+  },
+  "Unit": "4C",
+  "Month": "April",
+  "Rent": 10000,
+  "Electricity": 6295.13,
+  "Water": 382,
+  "Outstanding Balance": 0,
+  "Total Amount": 16677.13,
+  "Amount Paid": 16677.13,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01f3"
+  },
+  "Unit": "4C",
+  "Month": "May",
+  "Rent": 10000,
+  "Electricity": 3072.62,
+  "Water": 368,
+  "Outstanding Balance": 0,
+  "Total Amount": 13440.62,
+  "Amount Paid": 13440.62,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01f4"
+  },
+  "Unit": "4C",
+  "Month": "June",
+  "Rent": 10000,
+  "Electricity": 8041.25,
+  "Water": 370,
+  "Outstanding Balance": 0,
+  "Total Amount": 18411.25,
+  "Amount Paid": 18411.25,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01f5"
+  },
+  "Unit": "4D",
+  "Month": "January",
+  "Rent": 8500,
+  "Electricity": 5798.6,
+  "Water": 497,
+  "Outstanding Balance": 0,
+  "Total Amount": 14795.6,
+  "Amount Paid": 14795.6,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01f6"
+  },
+  "Unit": "4D",
+  "Month": "February",
+  "Rent": 8500,
+  "Electricity": 1526.87,
+  "Water": 307,
+  "Outstanding Balance": 0,
+  "Total Amount": 10333.87,
+  "Amount Paid": 10333.87,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01f7"
+  },
+  "Unit": "4D",
+  "Month": "March",
+  "Rent": 8500,
+  "Electricity": 8183.05,
+  "Water": 328,
+  "Outstanding Balance": 0,
+  "Total Amount": 17011.05,
+  "Amount Paid": 17011.05,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01f8"
+  },
+  "Unit": "4D",
+  "Month": "April",
+  "Rent": 8500,
+  "Electricity": 5328.55,
+  "Water": 491,
+  "Outstanding Balance": 0,
+  "Total Amount": 14319.55,
+  "Amount Paid": 14319.55,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01f9"
+  },
+  "Unit": "4D",
+  "Month": "May",
+  "Rent": 8500,
+  "Electricity": 1494,
+  "Water": 340,
+  "Outstanding Balance": 0,
+  "Total Amount": 10334,
+  "Amount Paid": 10334,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01fa"
+  },
+  "Unit": "4D",
+  "Month": "June",
+  "Rent": 8500,
+  "Electricity": 5878.67,
+  "Water": 332,
+  "Outstanding Balance": 0,
+  "Total Amount": 14710.67,
+  "Amount Paid": 14710.67,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01fb"
+  },
+  "Unit": "4E",
+  "Month": "January",
+  "Rent": 8000,
+  "Electricity": 2690,
+  "Water": 500,
+  "Outstanding Balance": 0,
+  "Total Amount": 11190,
+  "Amount Paid": 11190,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01fc"
+  },
+  "Unit": "4E",
+  "Month": "February",
+  "Rent": 8000,
+  "Electricity": 1899.16,
+  "Water": 442,
+  "Outstanding Balance": 0,
+  "Total Amount": 10341.16,
+  "Amount Paid": 10341.16,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01fd"
+  },
+  "Unit": "4E",
+  "Month": "March",
+  "Rent": 8000,
+  "Electricity": 1920.81,
+  "Water": 456,
+  "Outstanding Balance": 0,
+  "Total Amount": 10376.81,
+  "Amount Paid": 10376.81,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01fe"
+  },
+  "Unit": "4E",
+  "Month": "April",
+  "Rent": 8000,
+  "Electricity": 5502.47,
+  "Water": 460,
+  "Outstanding Balance": 0,
+  "Total Amount": 13962.47,
+  "Amount Paid": 13962.47,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade01ff"
+  },
+  "Unit": "4E",
+  "Month": "May",
+  "Rent": 8000,
+  "Electricity": 4213.11,
+  "Water": 321,
+  "Outstanding Balance": 0,
+  "Total Amount": 12534.11,
+  "Amount Paid": 12534.11,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0200"
+  },
+  "Unit": "4E",
+  "Month": "June",
+  "Rent": 8000,
+  "Electricity": 4812,
+  "Water": 398,
+  "Outstanding Balance": 0,
+  "Total Amount": 13210,
+  "Amount Paid": 13210,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0201"
+  },
+  "Unit": "4F",
+  "Month": "January",
+  "Rent": 8500,
+  "Electricity": 2893.43,
+  "Water": 367,
+  "Outstanding Balance": 0,
+  "Total Amount": 11760.43,
+  "Amount Paid": 11760.43,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0202"
+  },
+  "Unit": "4F",
+  "Month": "February",
+  "Rent": 8500,
+  "Electricity": 1856.36,
+  "Water": 440,
+  "Outstanding Balance": 0,
+  "Total Amount": 10796.36,
+  "Amount Paid": 10796.36,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0203"
+  },
+  "Unit": "4F",
+  "Month": "March",
+  "Rent": 8500,
+  "Electricity": 7617.85,
+  "Water": 412,
+  "Outstanding Balance": 0,
+  "Total Amount": 16529.85,
+  "Amount Paid": 16529.85,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0204"
+  },
+  "Unit": "4F",
+  "Month": "April",
+  "Rent": 8500,
+  "Electricity": 5841.75,
+  "Water": 481,
+  "Outstanding Balance": 0,
+  "Total Amount": 14822.75,
+  "Amount Paid": 14822.75,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0205"
+  },
+  "Unit": "4F",
+  "Month": "May",
+  "Rent": 8500,
+  "Electricity": 6523.25,
+  "Water": 532,
+  "Outstanding Balance": 0,
+  "Total Amount": 15555.25,
+  "Amount Paid": 15555.25,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0206"
+  },
+  "Unit": "4F",
+  "Month": "June",
+  "Rent": 8500,
+  "Electricity": 5760.71,
+  "Water": 496,
+  "Outstanding Balance": 0,
+  "Total Amount": 14756.71,
+  "Amount Paid": 14756.71,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0207"
+  },
+  "Unit": "4G",
+  "Month": "January",
+  "Rent": 7500,
+  "Electricity": 5963.47,
+  "Water": 317,
+  "Outstanding Balance": 0,
+  "Total Amount": 13780.47,
+  "Amount Paid": 13780.47,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0208"
+  },
+  "Unit": "4G",
+  "Month": "February",
+  "Rent": 7500,
+  "Electricity": 5220.5,
+  "Water": 488,
+  "Outstanding Balance": 0,
+  "Total Amount": 13208.5,
+  "Amount Paid": 13208.5,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0209"
+  },
+  "Unit": "4G",
+  "Month": "March",
+  "Rent": 7500,
+  "Electricity": 1779.56,
+  "Water": 310,
+  "Outstanding Balance": 0,
+  "Total Amount": 9589.56,
+  "Amount Paid": 9589.56,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade020a"
+  },
+  "Unit": "4G",
+  "Month": "April",
+  "Rent": 7500,
+  "Electricity": 4832,
+  "Water": 358,
+  "Outstanding Balance": 0,
+  "Total Amount": 12690,
+  "Amount Paid": 12690,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade020b"
+  },
+  "Unit": "4G",
+  "Month": "May",
+  "Rent": 7500,
+  "Electricity": 2356.19,
+  "Water": 332,
+  "Outstanding Balance": 0,
+  "Total Amount": 10188.19,
+  "Amount Paid": 10188.19,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade020c"
+  },
+  "Unit": "4G",
+  "Month": "June",
+  "Rent": 7500,
+  "Electricity": 4075.5,
+  "Water": 413,
+  "Outstanding Balance": 0,
+  "Total Amount": 11988.5,
+  "Amount Paid": 11988.5,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade020d"
+  },
+  "Unit": "4H",
+  "Month": "January",
+  "Rent": 8000,
+  "Electricity": 6484.69,
+  "Water": 349,
+  "Outstanding Balance": 0,
+  "Total Amount": 14833.69,
+  "Amount Paid": 14833.69,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade020e"
+  },
+  "Unit": "4H",
+  "Month": "February",
+  "Rent": 8000,
+  "Electricity": 5073.2,
+  "Water": 319,
+  "Outstanding Balance": 0,
+  "Total Amount": 13392.2,
+  "Amount Paid": 13392.2,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade020f"
+  },
+  "Unit": "4H",
+  "Month": "March",
+  "Rent": 8000,
+  "Electricity": 7195.51,
+  "Water": 412,
+  "Outstanding Balance": 0,
+  "Total Amount": 15607.51,
+  "Amount Paid": 15607.51,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0210"
+  },
+  "Unit": "4H",
+  "Month": "April",
+  "Rent": 8000,
+  "Electricity": 6892.84,
+  "Water": 435,
+  "Outstanding Balance": 0,
+  "Total Amount": 15327.84,
+  "Amount Paid": 15327.84,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0211"
+  },
+  "Unit": "4H",
+  "Month": "May",
+  "Rent": 8000,
+  "Electricity": 3042.38,
+  "Water": 464,
+  "Outstanding Balance": 0,
+  "Total Amount": 11506.38,
+  "Amount Paid": 11506.38,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0212"
+  },
+  "Unit": "4H",
+  "Month": "June",
+  "Rent": 8000,
+  "Electricity": 2551.24,
+  "Water": 352,
+  "Outstanding Balance": 0,
+  "Total Amount": 10903.24,
+  "Amount Paid": 10903.24,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0213"
+  },
+  "Unit": "4I",
+  "Month": "January",
+  "Rent": 8500,
+  "Electricity": 5770.97,
+  "Water": 347,
+  "Outstanding Balance": 0,
+  "Total Amount": 14617.97,
+  "Amount Paid": 14617.97,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0214"
+  },
+  "Unit": "4I",
+  "Month": "February",
+  "Rent": 8500,
+  "Electricity": 6238.12,
+  "Water": 447,
+  "Outstanding Balance": 0,
+  "Total Amount": 15185.12,
+  "Amount Paid": 15185.12,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0215"
+  },
+  "Unit": "4I",
+  "Month": "March",
+  "Rent": 8500,
+  "Electricity": 7623,
+  "Water": 470,
+  "Outstanding Balance": 0,
+  "Total Amount": 16593,
+  "Amount Paid": 16593,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0216"
+  },
+  "Unit": "4I",
+  "Month": "April",
+  "Rent": 8500,
+  "Electricity": 7062.46,
+  "Water": 392,
+  "Outstanding Balance": 0,
+  "Total Amount": 15954.46,
+  "Amount Paid": 15954.46,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0217"
+  },
+  "Unit": "4I",
+  "Month": "May",
+  "Rent": 8500,
+  "Electricity": 5383.29,
+  "Water": 332,
+  "Outstanding Balance": 0,
+  "Total Amount": 14215.29,
+  "Amount Paid": 14215.29,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0218"
+  },
+  "Unit": "4I",
+  "Month": "June",
+  "Rent": 8500,
+  "Electricity": 1919.92,
+  "Water": 358,
+  "Outstanding Balance": 0,
+  "Total Amount": 10777.92,
+  "Amount Paid": 10777.92,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0219"
+  },
+  "Unit": "4J",
+  "Month": "January",
+  "Rent": 8000,
+  "Electricity": 6651.12,
+  "Water": 321,
+  "Outstanding Balance": 0,
+  "Total Amount": 14972.12,
+  "Amount Paid": 14972.12,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade021a"
+  },
+  "Unit": "4J",
+  "Month": "February",
+  "Rent": 8000,
+  "Electricity": 3139,
+  "Water": 412,
+  "Outstanding Balance": 0,
+  "Total Amount": 11551,
+  "Amount Paid": 11551,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade021b"
+  },
+  "Unit": "4J",
+  "Month": "March",
+  "Rent": 8000,
+  "Electricity": 2514.26,
+  "Water": 359,
+  "Outstanding Balance": 0,
+  "Total Amount": 10873.26,
+  "Amount Paid": 10873.26,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade021c"
+  },
+  "Unit": "4J",
+  "Month": "April",
+  "Rent": 8000,
+  "Electricity": 5168.89,
+  "Water": 500,
+  "Outstanding Balance": 0,
+  "Total Amount": 13668.89,
+  "Amount Paid": 13668.89,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade021d"
+  },
+  "Unit": "4J",
+  "Month": "May",
+  "Rent": 8000,
+  "Electricity": 3267.64,
+  "Water": 372,
+  "Outstanding Balance": 0,
+  "Total Amount": 11639.64,
+  "Amount Paid": 11639.64,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade021e"
+  },
+  "Unit": "4J",
+  "Month": "June",
+  "Rent": 8000,
+  "Electricity": 5251.4,
+  "Water": 383,
+  "Outstanding Balance": 0,
+  "Total Amount": 13634.4,
+  "Amount Paid": 13634.4,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade021f"
+  },
+  "Unit": "4K",
+  "Month": "January",
+  "Rent": 8000,
+  "Electricity": 7624.57,
+  "Water": 396,
+  "Outstanding Balance": 0,
+  "Total Amount": 16020.57,
+  "Amount Paid": 16020.57,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0220"
+  },
+  "Unit": "4K",
+  "Month": "February",
+  "Rent": 8000,
+  "Electricity": 1479.91,
+  "Water": 414,
+  "Outstanding Balance": 0,
+  "Total Amount": 9893.91,
+  "Amount Paid": 9893.91,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0221"
+  },
+  "Unit": "4K",
+  "Month": "March",
+  "Rent": 8000,
+  "Electricity": 8029.16,
+  "Water": 423,
+  "Outstanding Balance": 0,
+  "Total Amount": 16452.16,
+  "Amount Paid": 16452.16,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0222"
+  },
+  "Unit": "4K",
+  "Month": "April",
+  "Rent": 8000,
+  "Electricity": 4005.24,
+  "Water": 460,
+  "Outstanding Balance": 0,
+  "Total Amount": 12465.24,
+  "Amount Paid": 12465.24,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0223"
+  },
+  "Unit": "4K",
+  "Month": "May",
+  "Rent": 8000,
+  "Electricity": 1658,
+  "Water": 387,
+  "Outstanding Balance": 0,
+  "Total Amount": 10045,
+  "Amount Paid": 10045,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0224"
+  },
+  "Unit": "4K",
+  "Month": "June",
+  "Rent": 8000,
+  "Electricity": 2777.16,
+  "Water": 499,
+  "Outstanding Balance": 0,
+  "Total Amount": 11276.16,
+  "Amount Paid": 11276.16,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0225"
+  },
+  "Unit": "4L",
+  "Month": "January",
+  "Rent": 8500,
+  "Electricity": 1810.21,
+  "Water": 327,
+  "Outstanding Balance": 0,
+  "Total Amount": 10637.21,
+  "Amount Paid": 10637.21,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0226"
+  },
+  "Unit": "4L",
+  "Month": "February",
+  "Rent": 8500,
+  "Electricity": 2083,
+  "Water": 496,
+  "Outstanding Balance": 0,
+  "Total Amount": 11079,
+  "Amount Paid": 11079,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0227"
+  },
+  "Unit": "4L",
+  "Month": "March",
+  "Rent": 8500,
+  "Electricity": 2024,
+  "Water": 347,
+  "Outstanding Balance": 0,
+  "Total Amount": 10871,
+  "Amount Paid": 10871,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0228"
+  },
+  "Unit": "4L",
+  "Month": "April",
+  "Rent": 8500,
+  "Electricity": 5608.1,
+  "Water": 467,
+  "Outstanding Balance": 0,
+  "Total Amount": 14575.1,
+  "Amount Paid": 14575.1,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade0229"
+  },
+  "Unit": "4L",
+  "Month": "May",
+  "Rent": 8500,
+  "Electricity": 4896.29,
+  "Water": 416,
+  "Outstanding Balance": 0,
+  "Total Amount": 13812.29,
+  "Amount Paid": 13812.29,
+  "Pending Balance": 0
+},
+{
+  "_id": {
+    "$oid": "66ab70987a19eba0dade022a"
+  },
+  "Unit": "4L",
+  "Month": "June",
+  "Rent": 8500,
+  "Electricity": 2932.68,
+  "Water": 397,
+  "Outstanding Balance": 0,
+  "Total Amount": 11829.68,
+  "Amount Paid": 11829.68,
+  "Pending Balance": 0
+}]

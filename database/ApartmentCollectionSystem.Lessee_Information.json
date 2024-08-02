@@ -1,0 +1,364 @@
+[{
+  "_id": {
+    "$oid": "6697c0b5efd604645be4554c"
+  },
+  "Unit": "1A",
+  "Lessee Name": null,
+  "Rental Purpose": null,
+  "TIN": null
+},
+{
+  "_id": {
+    "$oid": "6697c0b5efd604645be4554d"
+  },
+  "Unit": "1B",
+  "Lessee Name": "Cherry Lynn Santos",
+  "Rental Purpose": "Commercial",
+  "TIN": {
+    "$numberLong": "212584345001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6697c0b5efd604645be4554e"
+  },
+  "Unit": "1C",
+  "Lessee Name": "Mari Jennifer Yalung",
+  "Rental Purpose": "Commercial",
+  "TIN": {
+    "$numberLong": "210326936000"
+  }
+},
+{
+  "_id": {
+    "$oid": "6697c0b5efd604645be4554f"
+  },
+  "Unit": "1D",
+  "Lessee Name": "Jerome Ongcapin",
+  "Rental Purpose": "Residential",
+  "TIN": null
+},
+{
+  "_id": {
+    "$oid": "6697c0b5efd604645be45550"
+  },
+  "Unit": "2A",
+  "Lessee Name": "Cris Dione Sigua",
+  "Rental Purpose": "Residential",
+  "TIN": null
+},
+{
+  "_id": {
+    "$oid": "6697c0b5efd604645be45551"
+  },
+  "Unit": "2B",
+  "Lessee Name": "Angelito L. Ongcapin",
+  "Rental Purpose": "Residential",
+  "TIN": null
+},
+{
+  "_id": {
+    "$oid": "6697c0b5efd604645be45552"
+  },
+  "Unit": "2C",
+  "Lessee Name": "Betty R. Ongcapin",
+  "Rental Purpose": "Residential",
+  "TIN": null
+},
+{
+  "_id": {
+    "$oid": "6697c0b5efd604645be45553"
+  },
+  "Unit": "2D",
+  "Lessee Name": "James Arnold",
+  "Rental Purpose": "Residential",
+  "TIN": null
+},
+{
+  "_id": {
+    "$oid": "6697c0b5efd604645be45554"
+  },
+  "Unit": "2E",
+  "Lessee Name": null,
+  "Rental Purpose": null,
+  "TIN": null
+},
+{
+  "_id": {
+    "$oid": "6697c0b5efd604645be45555"
+  },
+  "Unit": "2F",
+  "Lessee Name": "Leah Esguerra",
+  "Rental Purpose": "Residential",
+  "TIN": null
+},
+{
+  "_id": {
+    "$oid": "6697c0b5efd604645be45556"
+  },
+  "Unit": "2G",
+  "Lessee Name": "Aireen Remoto",
+  "Rental Purpose": "Residential",
+  "TIN": null
+},
+{
+  "_id": {
+    "$oid": "6697c0b5efd604645be45557"
+  },
+  "Unit": "2H",
+  "Lessee Name": "Cecille Encarnacion",
+  "Rental Purpose": "Residential",
+  "TIN": null
+},
+{
+  "_id": {
+    "$oid": "6697c0b5efd604645be45558"
+  },
+  "Unit": "2I",
+  "Lessee Name": "Angie Villarico",
+  "Rental Purpose": "Residential",
+  "TIN": null
+},
+{
+  "_id": {
+    "$oid": "6697c0b5efd604645be45559"
+  },
+  "Unit": "2J",
+  "Lessee Name": "Ronwaldo Bariuan",
+  "Rental Purpose": "Residential",
+  "TIN": null
+},
+{
+  "_id": {
+    "$oid": "6697c0b5efd604645be4555a"
+  },
+  "Unit": "2K",
+  "Lessee Name": "Cecille Espiritu",
+  "Rental Purpose": "Residential",
+  "TIN": null
+},
+{
+  "_id": {
+    "$oid": "6697c0b5efd604645be4555b"
+  },
+  "Unit": "2L",
+  "Lessee Name": "Arvin de Guzman",
+  "Rental Purpose": "Residential",
+  "TIN": null
+},
+{
+  "_id": {
+    "$oid": "6697c0b5efd604645be4555c"
+  },
+  "Unit": "3A",
+  "Lessee Name": "Honeylyn Privado",
+  "Rental Purpose": "Residential",
+  "TIN": null
+},
+{
+  "_id": {
+    "$oid": "6697c0b5efd604645be4555d"
+  },
+  "Unit": "3B",
+  "Lessee Name": "Marc Angelo Ongcapin",
+  "Rental Purpose": "Residential",
+  "TIN": null
+},
+{
+  "_id": {
+    "$oid": "6697c0b5efd604645be4555e"
+  },
+  "Unit": "3C",
+  "Lessee Name": "Scala M. Ongcapin",
+  "Rental Purpose": "Residential",
+  "TIN": null
+},
+{
+  "_id": {
+    "$oid": "6697c0b5efd604645be4555f"
+  },
+  "Unit": "3D",
+  "Lessee Name": "Madel Mahinay",
+  "Rental Purpose": "Residential",
+  "TIN": null
+},
+{
+  "_id": {
+    "$oid": "6697c0b5efd604645be45560"
+  },
+  "Unit": "3E",
+  "Lessee Name": "Carissa Tapang",
+  "Rental Purpose": "Residential",
+  "TIN": null
+},
+{
+  "_id": {
+    "$oid": "6697c0b5efd604645be45561"
+  },
+  "Unit": "3F",
+  "Lessee Name": "Nancy Yee",
+  "Rental Purpose": "Residential",
+  "TIN": null
+},
+{
+  "_id": {
+    "$oid": "6697c0b5efd604645be45562"
+  },
+  "Unit": "3G",
+  "Lessee Name": "Misie Quimba",
+  "Rental Purpose": "Residential",
+  "TIN": null
+},
+{
+  "_id": {
+    "$oid": "6697c0b5efd604645be45563"
+  },
+  "Unit": "3H",
+  "Lessee Name": "Paul Encarnacion",
+  "Rental Purpose": "Residential",
+  "TIN": null
+},
+{
+  "_id": {
+    "$oid": "6697c0b5efd604645be45564"
+  },
+  "Unit": "3I",
+  "Lessee Name": "Jennifer Valenzuela",
+  "Rental Purpose": "Residential",
+  "TIN": null
+},
+{
+  "_id": {
+    "$oid": "6697c0b5efd604645be45565"
+  },
+  "Unit": "3J",
+  "Lessee Name": "Clarissa Gallardo",
+  "Rental Purpose": "Residential",
+  "TIN": null
+},
+{
+  "_id": {
+    "$oid": "6697c0b5efd604645be45566"
+  },
+  "Unit": "3K",
+  "Lessee Name": "Aaron Alfonso",
+  "Rental Purpose": "Residential",
+  "TIN": null
+},
+{
+  "_id": {
+    "$oid": "6697c0b5efd604645be45567"
+  },
+  "Unit": "3L",
+  "Lessee Name": "Rowena Barcelona",
+  "Rental Purpose": "Residential",
+  "TIN": null
+},
+{
+  "_id": {
+    "$oid": "6697c0b5efd604645be45568"
+  },
+  "Unit": "4A",
+  "Lessee Name": "Louise Cruz",
+  "Rental Purpose": "Residential",
+  "TIN": null
+},
+{
+  "_id": {
+    "$oid": "6697c0b5efd604645be45569"
+  },
+  "Unit": "4B",
+  "Lessee Name": "Raymond Ducos",
+  "Rental Purpose": "Residential",
+  "TIN": null
+},
+{
+  "_id": {
+    "$oid": "6697c0b5efd604645be4556a"
+  },
+  "Unit": "4C",
+  "Lessee Name": "Marvin Inocencio",
+  "Rental Purpose": "Residential",
+  "TIN": null
+},
+{
+  "_id": {
+    "$oid": "6697c0b5efd604645be4556b"
+  },
+  "Unit": "4D",
+  "Lessee Name": "Judy Ann Bermiso",
+  "Rental Purpose": "Residential",
+  "TIN": null
+},
+{
+  "_id": {
+    "$oid": "6697c0b5efd604645be4556c"
+  },
+  "Unit": "4E",
+  "Lessee Name": "Veronica Ongcapin Tan",
+  "Rental Purpose": "Residential",
+  "TIN": null
+},
+{
+  "_id": {
+    "$oid": "6697c0b5efd604645be4556d"
+  },
+  "Unit": "4F",
+  "Lessee Name": "Corazon O. Encarnacion",
+  "Rental Purpose": "Residential",
+  "TIN": null
+},
+{
+  "_id": {
+    "$oid": "6697c0b5efd604645be4556e"
+  },
+  "Unit": "4G",
+  "Lessee Name": "Carmen Zaplan",
+  "Rental Purpose": "Residential",
+  "TIN": null
+},
+{
+  "_id": {
+    "$oid": "6697c0b5efd604645be4556f"
+  },
+  "Unit": "4H",
+  "Lessee Name": "Jonald Cajilig",
+  "Rental Purpose": "Residential",
+  "TIN": null
+},
+{
+  "_id": {
+    "$oid": "6697c0b5efd604645be45570"
+  },
+  "Unit": "4I",
+  "Lessee Name": "Rhodora Capulong",
+  "Rental Purpose": "Residential",
+  "TIN": null
+},
+{
+  "_id": {
+    "$oid": "6697c0b5efd604645be45571"
+  },
+  "Unit": "4J",
+  "Lessee Name": "Philip Sevilla",
+  "Rental Purpose": "Residential",
+  "TIN": null
+},
+{
+  "_id": {
+    "$oid": "6697c0b5efd604645be45572"
+  },
+  "Unit": "4K",
+  "Lessee Name": "Karren Ralutin",
+  "Rental Purpose": "Residential",
+  "TIN": null
+},
+{
+  "_id": {
+    "$oid": "6697c0b5efd604645be45573"
+  },
+  "Unit": "4L",
+  "Lessee Name": "Zaida Rosales",
+  "Rental Purpose": "Residential",
+  "TIN": null
+}]
